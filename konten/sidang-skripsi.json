@@ -1,45 +1,190 @@
 {
   "style": "style-02",
   "skit": "sidang",
-  "brand": { "watermark": "" },
-
-  "pov": { "text": "POV: penguji ngecek daftar pustakamu", "t0": 0.0, "t1": 3.4 },
-
+  "brand": {
+    "watermark": ""
+  },
+  "voice_roles": {
+    "bu": {
+      "gender": "female",
+      "age": "old"
+    },
+    "pak": {
+      "gender": "male",
+      "age": "old"
+    },
+    "mhs": {
+      "gender": "male",
+      "age": "young"
+    }
+  },
+  "voices": {},
+  "pov": {
+    "text": "POV: penguji ngecek daftar pustakamu",
+    "t0": 0.0,
+    "t1": 3.4
+  },
   "lines": [
-    { "who": "bu",  "text": "Daftar pustakamu ada lima puluh.", "t0": 0.35, "t1": 2.5 },
-    { "who": "bu",  "text": "Biasanya separuhnya fiktif.", "t0": 2.75, "t1": 4.5 },
-    { "who": "pak", "text": "Coba kita cek satu-satu.", "t0": 4.8, "t1": 6.55 },
-    { "who": "mhs", "text": "Silakan, Pak. Semuanya ber-DOI.", "t0": 6.85, "t1": 8.95 },
-    { "who": "bu",  "text": "...Ini beneran ada.", "t0": 9.75, "t1": 11.1 },
-    { "who": "pak", "text": "Yang ini juga ada!", "t0": 11.35, "t1": 12.75 },
-    { "who": "pak", "text": "Kamu bimbingan sama siapa?", "t0": 13.0, "t1": 14.95 },
-    { "who": "mhs", "text": "Saya cuma chat.", "t0": 15.25, "t1": 16.55 },
-    { "who": "pak", "text": "Geser, Nak.", "t0": 21.05, "t1": 22.0 },
-    { "who": "mhs", "text": "Bapak mau skripsian?", "t0": 22.25, "t1": 23.75 },
-    { "who": "pak", "text": "Disertasi. Jangan bilang-bilang.", "t0": 24.05, "t1": 26.4 },
-    { "who": "bu",  "text": "...Ini sidangnya siapa, sih?", "t0": 26.85, "t1": 28.6 }
+    {
+      "who": "bu",
+      "text": "Daftar pustakamu ada lima puluh.",
+      "t0": 0.35,
+      "t1": 2.5
+    },
+    {
+      "who": "bu",
+      "text": "Biasanya separuhnya fiktif.",
+      "t0": 2.75,
+      "t1": 4.5
+    },
+    {
+      "who": "pak",
+      "text": "Coba kita cek satu-satu.",
+      "t0": 4.8,
+      "t1": 6.55
+    },
+    {
+      "who": "mhs",
+      "text": "Silakan, Pak. Semuanya ber-DOI.",
+      "t0": 6.85,
+      "t1": 8.95,
+      "tts": "Silakan, Pak. Semuanya ber-de-o-i."
+    },
+    {
+      "who": "bu",
+      "text": "...Ini beneran ada.",
+      "t0": 9.75,
+      "t1": 11.1,
+      "tts": "[quietly surprised] ...Ini beneran ada."
+    },
+    {
+      "who": "pak",
+      "text": "Yang ini juga ada!",
+      "t0": 11.35,
+      "t1": 12.75,
+      "tts": "[surprised] Yang ini juga ada!"
+    },
+    {
+      "who": "pak",
+      "text": "Kamu bimbingan sama siapa?",
+      "t0": 13.0,
+      "t1": 14.95,
+      "tts": "[suspicious] Kamu bimbingan sama siapa?"
+    },
+    {
+      "who": "mhs",
+      "text": "Saya cuma chat.",
+      "t0": 15.25,
+      "t1": 16.55,
+      "tts": "[casually] Saya cuma chat."
+    },
+    {
+      "who": "pak",
+      "text": "Geser, Nak.",
+      "t0": 21.05,
+      "t1": 22.0,
+      "tts": "[whispering] Geser, Nak."
+    },
+    {
+      "who": "mhs",
+      "text": "Bapak mau skripsian?",
+      "t0": 22.25,
+      "t1": 23.75,
+      "tts": "[confused] Bapak mau skripsian?"
+    },
+    {
+      "who": "pak",
+      "text": "Disertasi. Jangan bilang-bilang.",
+      "t0": 24.05,
+      "t1": 26.4,
+      "tts": "[whispering] Disertasi. Jangan bilang-bilang."
+    },
+    {
+      "who": "bu",
+      "text": "...Ini sidangnya siapa, sih?",
+      "t0": 26.85,
+      "t1": 28.6,
+      "tts": "[deadpan, tired] ...Ini sidangnya siapa, sih?"
+    }
   ],
-
-  "endcard": { "url": "dosenku.biz.id", "tagline": ["Skripsi terarah.", "Dosen senang."] },
-
+  "extra_voiceover": [
+    {
+      "who": "mhs",
+      "text": "Dosenku. Skripsi terarah, dosen senang.",
+      "tts": "[cheerful] Dosenku. Skripsi terarah, dosen senang.",
+      "t0": 29.4,
+      "max": 2.9
+    }
+  ],
+  "endcard": {
+    "url": "dosenku.biz.id",
+    "tagline": [
+      "Skripsi terarah.",
+      "Dosen senang."
+    ]
+  },
   "props": {
-    "slide": ["Pengaruh Durasi Media Sosial", "terhadap Pola Tidur Mahasiswa"],
+    "slide": [
+      "Pengaruh Durasi Media Sosial",
+      "terhadap Pola Tidur Mahasiswa"
+    ],
     "student": "Raka Pratama",
     "prodi": "Program Studi Psikologi",
     "year": "2026"
   },
-
   "audio": {
-    "music": [[0.0, 15.2], [16.6, 26.55]],
+    "music": [
+      [
+        0.0,
+        15.2
+      ],
+      [
+        16.6,
+        26.55
+      ]
+    ],
     "sfx": [
-      { "type": "typing", "t0": 9.15, "t1": 11.2 },
-      { "type": "sting", "t": 11.33 },
-      { "type": "ding", "t": 16.62 },
-      { "type": "scrape", "t": 18.05, "dur": 0.45, "amp": 0.32 },
-      { "type": "steps", "t0": 18.5, "t1": 20.85, "every": 0.3 },
-      { "type": "scrape", "t": 22.3, "dur": 0.55, "amp": 0.26 },
-      { "type": "typing", "t0": 24.0, "t1": 26.45, "rate": 13 },
-      { "type": "jingle", "t": 28.85 }
+      {
+        "type": "typing",
+        "t0": 9.15,
+        "t1": 11.2
+      },
+      {
+        "type": "sting",
+        "t": 11.33
+      },
+      {
+        "type": "ding",
+        "t": 16.62
+      },
+      {
+        "type": "scrape",
+        "t": 18.05,
+        "dur": 0.45,
+        "amp": 0.32
+      },
+      {
+        "type": "steps",
+        "t0": 18.5,
+        "t1": 20.85,
+        "every": 0.3
+      },
+      {
+        "type": "scrape",
+        "t": 22.3,
+        "dur": 0.55,
+        "amp": 0.26
+      },
+      {
+        "type": "typing",
+        "t0": 24.0,
+        "t1": 26.45,
+        "rate": 13
+      },
+      {
+        "type": "jingle",
+        "t": 28.85
+      }
     ]
   }
 }

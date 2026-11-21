@@ -1,9 +1,14 @@
 {
   "style": "style-01",
-  "brand": { "watermark": "Dosenku" },
-  "timing": { "hook": 4.5, "fact": 6.5, "outro": 5.0 },
+  "brand": {
+    "watermark": "Dosenku"
+  },
+  "timing": {
+    "hook": 4.5,
+    "fact": 6.5,
+    "outro": 5.0
+  },
   "fact_label": "FAKTA",
-
   "hook": {
     "tag": "RESMI RILIS  •  19 NOV 2026",
     "title": "GTA VI",
@@ -11,55 +16,150 @@
     "line": "Setelah 13 tahun nunggu sejak GTA V,",
     "pill": "ini 5 fakta yang bikin gamer Indonesia heboh"
   },
-
   "facts": [
     {
-      "head": ["STREAMER INDONESIA", "NO.1 DI DUNIA"],
-      "hero": { "type": "counter", "value": 392505, "caption": "penonton serentak  •  peak tertinggi dunia" },
+      "head": [
+        "STREAMER INDONESIA",
+        "NO.1 DI DUNIA"
+      ],
+      "hero": {
+        "type": "counter",
+        "value": 392505,
+        "caption": "penonton serentak  •  peak tertinggi dunia"
+      },
       "body": "Live GTA VI Windah Basudara jadi yang paling rame sedunia, ngalahin IShowSpeed (371.840).",
       "source": "Sumber: Streams Charts via Katadata (19/11/2026)"
     },
     {
-      "head": ["BARU SEHARI,", "HARGANYA NAIK"],
-      "hero": { "type": "price", "old": "Rp1.190.000", "new": "Rp1.321.000" },
+      "head": [
+        "BARU SEHARI,",
+        "HARGANYA NAIK"
+      ],
+      "hero": {
+        "type": "price",
+        "old": "Rp1.190.000",
+        "new": "Rp1.321.000"
+      },
       "body": "Standard Edition di PS Store Indonesia naik Rp131 ribu. Ultimate juga ikut naik: Rp1,49 jt jadi Rp1,65 jt.",
       "source": "Sumber: detikINET (19/11/2026)"
     },
     {
-      "head": ["GAMER PC,", "SABAR DULU"],
+      "head": [
+        "GAMER PC,",
+        "SABAR DULU"
+      ],
       "hero": {
         "type": "chips",
         "items": [
-          { "text": "PS5", "ok": true },
-          { "text": "XBOX SERIES X|S", "ok": true },
-          { "text": "PC", "ok": false }
+          {
+            "text": "PS5",
+            "ok": true
+          },
+          {
+            "text": "XBOX SERIES X|S",
+            "ok": true
+          },
+          {
+            "text": "PC",
+            "ok": false
+          }
         ]
       },
       "body": "Belum ada versi PC. Rumornya awal 2027, tapi Rockstar belum umumin tanggal resminya.",
       "source": "Sumber: Metro TV News, Gizmologi (Okt 2026)"
     },
     {
-      "head": ["SKOR METACRITIC", "NYARIS SEMPURNA"],
-      "hero": { "type": "score", "value": 99, "max": 100, "badge": "REKOR!" },
+      "head": [
+        "SKOR METACRITIC",
+        "NYARIS SEMPURNA"
+      ],
+      "hero": {
+        "type": "score",
+        "value": 99,
+        "max": 100,
+        "badge": "REKOR!"
+      },
       "body": "Nyamain skor tertinggi sepanjang sejarah Metacritic, sejajar Zelda: Ocarina of Time (1998).",
       "source": "Sumber: Metacritic via Digital Trends (Nov 2026)"
     },
     {
-      "head": ["MAP-NYA", "GILA LUAS"],
-      "hero": { "type": "big", "text": "±2X", "caption": "Vice City aja ±2x Los Santos (GTA V)" },
+      "head": [
+        "MAP-NYA",
+        "GILA LUAS"
+      ],
+      "hero": {
+        "type": "big",
+        "text": "±2X",
+        "caption": "Vice City aja ±2x Los Santos (GTA V)"
+      },
       "body": "Kata Rockstar, Leonida hampir seluas map GTA IV + GTA V + RDR2 digabung. Siapin storage ±250 GB!",
       "source": "Sumber: TweakTown, esports.gg, Fortune IDN"
     }
   ],
-
   "outro": {
     "pill": "GILIRAN KAMU",
-    "head": ["KAMU TIM", "MANA NIH?"],
+    "head": [
+      "KAMU TIM",
+      "MANA NIH?"
+    ],
     "options": [
-      { "letter": "A", "lines": ["Langsung main", "di PS5"] },
-      { "letter": "B", "lines": ["Nunggu versi", "PC aja"] }
+      {
+        "letter": "A",
+        "lines": [
+          "Langsung main",
+          "di PS5"
+        ]
+      },
+      {
+        "letter": "B",
+        "lines": [
+          "Nunggu versi",
+          "PC aja"
+        ]
+      }
     ],
     "cta": "Tulis A atau B di komentar!",
     "follow": "Follow buat update game lainnya"
-  }
+  },
+  "voice_roles": {
+    "narator": {
+      "gender": "male",
+      "age": "young"
+    }
+  },
+  "voice_speed": {
+    "narator": 1.08
+  },
+  "voiceover": [
+    {
+      "t0": 0.15,
+      "text": "GTA 6 akhirnya rilis! Ini lima fakta yang bikin gamer Indonesia heboh.",
+      "tts": "[excited] GTA 6 akhirnya rilis! Ini lima fakta yang bikin gamer Indonesia heboh."
+    },
+    {
+      "t0": 4.65,
+      "text": "Pertama, live GTA 6 Windah Basudara paling rame sedunia: hampir empat ratus ribu penonton, ngalahin IShowSpeed!"
+    },
+    {
+      "t0": 11.15,
+      "text": "Kedua, baru sehari rilis, harganya di PS Store Indonesia naik jadi satu koma tiga juta!"
+    },
+    {
+      "t0": 17.65,
+      "text": "Ketiga, gamer PC sabar dulu. Baru ada di PS5 dan Xbox, versi PC rumornya awal tahun depan."
+    },
+    {
+      "t0": 24.15,
+      "text": "Keempat, skor Metacritic-nya sembilan puluh sembilan, nyamain rekor tertinggi sepanjang sejarah bareng Zelda Ocarina of Time."
+    },
+    {
+      "t0": 30.65,
+      "text": "Kelima, map-nya gila luas. Vice City aja dua kali Los Santos. Siapin storage dua ratus lima puluh giga!"
+    },
+    {
+      "t0": 37.15,
+      "text": "Tim A langsung main, atau tim B nunggu versi PC? Tulis di komentar!",
+      "max": 4.6
+    }
+  ]
 }

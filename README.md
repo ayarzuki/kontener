@@ -46,11 +46,42 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
    ```
    Hasilnya `output\topik-baru.mp4`, siap upload ke TikTok, Reels, atau Shorts.
 
+## Voice-over (Fish Audio)
+
+`voice.py` membuat suara TTS lewat API Fish Audio lalu menempelkannya ke video
+(musik otomatis mengecil saat ada suara).
+
+1. Simpan API key sebagai environment variable Windows `FISH_AUDIO_API_KEY`
+   (Start → "Edit environment variables for your account" → New), lalu buka terminal baru.
+   Alternatif: file `%USERPROFILE%\.config\kontener\fish.env` berisi `FISH_AUDIO_API_KEY=...`.
+   **Jangan** taruh key di folder repo ini.
+2. Jalankan:
+   ```powershell
+   python voice.py konten\gta-vi.json --video output\GTA_VI_Dosenku.mp4
+   python voice.py konten\sidang-skripsi.json --video output\Dosenku_Sidang_Skripsi_PS2.mp4
+   ```
+   Hasil: `output\<nama video>-voice.mp4`. Tanpa `--video`, dipakai `output\<nama-konten>.mp4`.
+3. Suara per karakter dipilih otomatis dari library Fish Audio (bahasa Indonesia) sesuai
+   `voice_roles`, lalu dicatat di `output\<nama>-voice\voices.json`. Untuk menggantinya:
+   `python voice.py konten\x.json --list-voices`, salin ID ke `"voices"` di file konten
+   (mis. `"voices": {"bu": "<ID>"}`), lalu jalankan ulang. `--repick` memilih ulang otomatis.
+
+Di file konten:
+- `voiceover`: narasi bebas `{t0, text, tts?, max?}` (style-01).
+- `lines[].tts`: teks khusus TTS untuk dialog skit (ejaan, mis. "ber-de-o-i", atau arah emosi
+  `[whispering]`, `[surprised]`), subtitle tetap memakai `text` (style-02).
+- `extra_voiceover`: suara tambahan tanpa subtitle (mis. penutup iklan).
+- `voice_speed`: kecepatan per karakter (0,5–2,0).
+
+Kalimat yang sudah dibuat disimpan (cache), jadi menjalankan ulang hanya membuat kalimat yang berubah.
+Kalau saldo model berbayar habis, script otomatis mencoba model gratis `s2.1-pro-free`.
+
 ## Struktur folder
 
 ```
 kontener/
 ├─ build.py                  # perintah utama: JSON -> MP4
+├─ voice.py                  # voice-over Fish Audio + mixing ke video
 ├─ konten/                   # satu file JSON = satu video
 │  ├─ _template.json         # template style-01
 │  ├─ gta-vi.json            # contoh style-01
