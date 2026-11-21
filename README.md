@@ -80,6 +80,7 @@ Kalau saldo model berbayar habis, script otomatis mencoba model gratis `s2.1-pro
 
 ```
 kontener/
+├─ CLAUDE.md                 # panduan untuk Claude Code (perintah, aturan konten & suara)
 ├─ build.py                  # perintah utama: JSON -> MP4
 ├─ voice.py                  # voice-over Fish Audio + mixing ke video
 ├─ konten/                   # satu file JSON = satu video
