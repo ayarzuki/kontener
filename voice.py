@@ -24,6 +24,7 @@ import hashlib
 import json
 import math
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -40,6 +41,11 @@ FEMALE = ["female", "perempuan", "wanita", "cewek", "woman", "girl", "ibu", "mba
 MALE = ["male", "pria", "laki", "cowok", "man", "boy", "bapak", "masculine", "guy", "abang"]
 OLD = ["old", "mature", "middle", "deep", "bapak", "ibu", "tua", "dewasa", "narrator", "berat", "wise"]
 YOUNG = ["young", "youth", "teen", "muda", "remaja", "anak", "student", "mahasiswa", "casual", "santai"]
+# Jangan pakai tiruan tokoh nyata / karakter berhak cipta untuk iklan.
+AVOID = re.compile(r"prabowo|jokowi|gibran|anies|ganjar|megawati|bahlil|purbaya|dedi mulyadi|windah|raffi|ariel|"
+                   r"willie|simanjuntak|deddy|corbuzier|atta|ricis|baim|soekarno|habibie|ahok|trump|obama|elon|"
+                   r"ronaldo|messi|doraemon|nobita|unyil|sonic|brawl|mortal|spongebob|squidward|upin|ipin|naruto|"
+                   r"mario|minecraft|roblox|cyberpunk|furina|genshin|brainrot|sahur|meme|google|ruangguru", re.I)
 
 
 # ---------------------------------------------------------------- key & http
@@ -111,7 +117,7 @@ def pick_voices(key, roles, fixed, cache_file):
         want = roles[who] if isinstance(roles[who], dict) else {"gender": roles[who]}
         best, best_s = None, -1e9
         for it in items:
-            if it["_id"] in used:
+            if it["_id"] in used or AVOID.search(it.get("title", "") + " " + it.get("description", "")):
                 continue
             g, a = guess(it)
             s = math.log1p(it.get("task_count", 0))

@@ -127,38 +127,40 @@
       "age": "young"
     }
   },
+  "voices": {
+    "narator": "248cf6d6ff744c2ba09d379de5c118ae"
+  },
   "voice_speed": {
-    "narator": 1.08
+    "narator": 1.12
   },
   "voiceover": [
     {
       "t0": 0.15,
-      "text": "GTA 6 akhirnya rilis! Ini lima fakta yang bikin gamer Indonesia heboh.",
-      "tts": "[excited] GTA 6 akhirnya rilis! Ini lima fakta yang bikin gamer Indonesia heboh."
+      "text": "[excited] GTA 6 akhirnya rilis! Ini lima fakta yang bikin gamer Indonesia heboh."
     },
     {
       "t0": 4.65,
-      "text": "Pertama, live GTA 6 Windah Basudara paling rame sedunia: hampir empat ratus ribu penonton, ngalahin IShowSpeed!"
+      "text": "Satu: live Windah Basudara paling rame sedunia, hampir empat ratus ribu penonton, ngalahin IShowSpeed!"
     },
     {
       "t0": 11.15,
-      "text": "Kedua, baru sehari rilis, harganya di PS Store Indonesia naik jadi satu koma tiga juta!"
+      "text": "Dua: baru sehari rilis, harga di PS Store Indonesia naik jadi satu koma tiga juta!"
     },
     {
       "t0": 17.65,
-      "text": "Ketiga, gamer PC sabar dulu. Baru ada di PS5 dan Xbox, versi PC rumornya awal tahun depan."
+      "text": "Tiga: gamer PC sabar dulu. Baru ada di PS5 dan Xbox, versi PC rumornya awal tahun depan."
     },
     {
       "t0": 24.15,
-      "text": "Keempat, skor Metacritic-nya sembilan puluh sembilan, nyamain rekor tertinggi sepanjang sejarah bareng Zelda Ocarina of Time."
+      "text": "Empat: skor Metacritic-nya sembilan puluh sembilan, nyamain rekor tertinggi sepanjang sejarah!"
     },
     {
       "t0": 30.65,
-      "text": "Kelima, map-nya gila luas. Vice City aja dua kali Los Santos. Siapin storage dua ratus lima puluh giga!"
+      "text": "Lima: map-nya gila luas, Vice City aja dua kali Los Santos. Siapin storage dua ratus lima puluh giga!"
     },
     {
       "t0": 37.15,
-      "text": "Tim A langsung main, atau tim B nunggu versi PC? Tulis di komentar!",
+      "text": "Tim A langsung main, atau tim B nunggu PC? Tulis di komentar!",
       "max": 4.6
     }
   ]

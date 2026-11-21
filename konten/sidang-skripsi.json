@@ -18,7 +18,16 @@
       "age": "young"
     }
   },
-  "voices": {},
+  "voices": {
+    "bu": "d36af9647ef647118c64b23b97087838",
+    "pak": "6d7909c639cc40499a4e9f8ed219136d",
+    "mhs": "d2a7c0f595dc4004858fe1e7b3898069"
+  },
+  "voice_speed": {
+    "bu": 1.05,
+    "pak": 1.12,
+    "mhs": 1.12
+  },
   "pov": {
     "text": "POV: penguji ngecek daftar pustakamu",
     "t0": 0.0,
