@@ -109,7 +109,7 @@ def main():
 
     music = load_module(style_dir, "music")
     wav = work / "music.wav"
-    music.make_music(wav, total, cuts)
+    music.make_music(wav, total, cuts, cfg=cfg)
 
     lst = work / "list.txt"
     lst.write_text("".join(f"file 's{i:02d}.mp4'\n" for i in range(n)), encoding="utf-8")
@@ -120,7 +120,8 @@ def main():
     tmp = final.with_name(final.stem + ".tmp.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-i", str(wav),
                     "-map", "0:v", "-map", "1:a", "-c:v", "copy",
-                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "44100", "-c:a", "aac", "-b:a", "192k",
+                    "-af", f"loudnorm=I={getattr(music, 'LOUDNESS', -14)}:TP=-1.5:LRA=11", "-ar", "44100",
+                    "-c:a", "aac", "-b:a", "192k",
                     "-shortest", "-movflags", "+faststart", str(tmp)], check=True)
     os.replace(tmp, final)
     print(f"Selesai: {final}")

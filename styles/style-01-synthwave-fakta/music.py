@@ -11,6 +11,7 @@ from scipy.signal import butter, lfilter
 SR = 44100
 BPM = 120
 BEAT = 60 / BPM
+LOUDNESS = -14  # target LUFS
 
 
 def _mtof(m):
@@ -27,7 +28,7 @@ def _saw(f, n, ph=0.0):
     return 2 * ((t * f + ph) % 1.0) - 1
 
 
-def make_music(path, total, cuts, seed=3):
+def make_music(path, total, cuts, cfg=None, seed=3):
     N = int(SR * total)
     rng = np.random.default_rng(seed)
 
