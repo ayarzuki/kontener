@@ -1,0 +1,58 @@
+{
+  "style": "style-01",
+  "brand": { "watermark": "Dosenku" },
+  "timing": { "hook": 4.5, "fact": 6.5, "outro": 5.0 },
+  "fact_label": "FAKTA",
+
+  "hook": {
+    "tag": "LABEL KECIL DI ATAS  •  TANGGAL",
+    "title": "JUDUL",
+    "headline": "KALIMAT PENEGAS!",
+    "line": "Satu kalimat konteks singkat,",
+    "pill": "ini N fakta yang bikin kamu kaget"
+  },
+
+  "facts": [
+    {
+      "head": ["JUDUL FAKTA", "BARIS KEDUA"],
+      "hero": { "type": "counter", "value": 123456, "caption": "keterangan angka" },
+      "body": "Penjelasan 1-2 kalimat, maksimal sekitar 110 karakter supaya muat 3 baris.",
+      "source": "Sumber: Nama Media (tanggal)"
+    },
+    {
+      "head": ["HARGA", "BERUBAH"],
+      "hero": { "type": "price", "old": "Rp100.000", "new": "Rp120.000" },
+      "body": "Penjelasan perubahan harga.",
+      "source": "Sumber: ..."
+    },
+    {
+      "head": ["TERSEDIA", "DI MANA?"],
+      "hero": { "type": "chips", "items": [ { "text": "ADA", "ok": true }, { "text": "BELUM ADA", "ok": false } ] },
+      "body": "Item ok:true tampil hijau di baris atas, ok:false merah di baris bawah (bergetar).",
+      "source": "Sumber: ..."
+    },
+    {
+      "head": ["SKOR", "NILAI"],
+      "hero": { "type": "score", "value": 95, "max": 100, "badge": "REKOR!" },
+      "body": "Skor menghitung dari 0 ke nilai, badge opsional.",
+      "source": "Sumber: ..."
+    },
+    {
+      "head": ["ANGKA", "BESAR"],
+      "hero": { "type": "big", "text": "3X", "caption": "keterangan singkat" },
+      "body": "Teks besar bebas (mis. 3X, 50%, No.1) dengan animasi pop.",
+      "source": "Sumber: ..."
+    }
+  ],
+
+  "outro": {
+    "pill": "GILIRAN KAMU",
+    "head": ["KAMU TIM", "MANA NIH?"],
+    "options": [
+      { "letter": "A", "lines": ["Pilihan A", "baris 2"] },
+      { "letter": "B", "lines": ["Pilihan B", "baris 2"] }
+    ],
+    "cta": "Tulis A atau B di komentar!",
+    "follow": "Follow buat update lainnya"
+  }
+}
