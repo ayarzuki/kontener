@@ -11,12 +11,15 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
 | `style-01` | [Synthwave Fakta](styles/style-01-synthwave-fakta/) | Listicle "N fakta" seputar topik yang lagi ramai (game, gadget, tren), ditutup polling A/B di komentar | [`konten/gta-vi.json`](konten/gta-vi.json) |
 | `style-02` | [PS2 Cutscene Skit](styles/style-02-ps2-cutscene/) | Skit komedi 3D low-poly ala cutscene PS2 dengan subtitle, punchline soal produk, end card URL | [`konten/sidang-skripsi.json`](konten/sidang-skripsi.json) |
 | `style-03` | [Parchment Explainer](styles/style-03-parchment-explainer/) | Penjelas sejarah ala buku cerita (tinta + cat air di perkamen), narasi + subtitle, produk sebagai jawaban di akhir | [`konten/sejarah-rujukan.json`](konten/sejarah-rujukan.json) |
+| `style-04` | [Lo-fi Pixel Study](styles/style-04-lofi-pixel/) | Loop "study with me" pixel art: kamar kos hujan, musik lo-fi, timer pomodoro, notifikasi & CTA produk | [`konten/lofi-bab2.json`](konten/lofi-bab2.json) |
 
 ![Preview style-01](styles/style-01-synthwave-fakta/preview.jpg)
 
 ![Preview style-02](styles/style-02-ps2-cutscene/preview.jpg)
 
 ![Preview style-03](styles/style-03-parchment-explainer/preview.jpg)
+
+![Preview style-04](styles/style-04-lofi-pixel/preview.jpg)
 
 ## Setup (sekali saja)
 
@@ -37,7 +40,8 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
 
 1. Salin contoh dari style yang mau dipakai, mis. `copy konten\_template.json konten\topik-baru.json`
    (style-01), `copy konten\sidang-skripsi.json konten\skit-baru.json` (style-02), atau
-   `copy konten\sejarah-rujukan.json konten\sejarah-baru.json` (style-03).
+   `copy konten\sejarah-rujukan.json konten\sejarah-baru.json` (style-03), atau
+   `copy konten\lofi-bab2.json konten\lofi-baru.json` (style-04).
 2. Edit isinya. Panduan tiap field ada di README style-nya.
 3. Cek tampilan dulu (cepat, hanya gambar):
    ```powershell
@@ -71,7 +75,8 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
    (mis. `"voices": {"bu": "<ID>"}`), lalu jalankan ulang. `--repick` memilih ulang otomatis.
 
 Di file konten:
-- `voiceover`: narasi bebas `{t0, text, tts?, max?}` (style-01 & style-03; di style-03 `text` juga jadi subtitle).
+- `voiceover`: narasi bebas `{t0, text, tts?, max?}` (style-01, 03, 04; di style-03 `text` juga jadi subtitle,
+  di style-04 subtitle ditulis terpisah di `captions`).
 - `lines[].tts`: teks khusus TTS untuk dialog skit (ejaan, mis. "ber-de-o-i", atau arah emosi
   `[whispering]`, `[surprised]`), subtitle tetap memakai `text` (style-02).
 - `extra_voiceover`: suara tambahan tanpa subtitle (mis. penutup iklan).
@@ -91,7 +96,8 @@ kontener/
 │  ├─ _template.json         # template style-01
 │  ├─ gta-vi.json            # contoh style-01
 │  ├─ sidang-skripsi.json    # contoh style-02
-│  └─ sejarah-rujukan.json   # contoh style-03
+│  ├─ sejarah-rujukan.json   # contoh style-03
+│  └─ lofi-bab2.json         # contoh style-04
 ├─ styles/
 │  ├─ style-01-synthwave-fakta/
 │  │  ├─ README.md           # panduan gaya: warna, font, layout, timing, tipe hero
@@ -107,13 +113,19 @@ kontener/
 │  │  ├─ skits/sidang.py     # koreografi skit "Sidang Skripsi"
 │  │  ├─ music.py            # musik lounge + SFX
 │  │  └─ preview.jpg
-│  └─ style-03-parchment-explainer/
-│     ├─ README.md           # panduan gaya, field JSON, cara menggambar adegan
-│     ├─ style.py            # kamera Ken Burns, transisi tinta->cat, label, subtitle (Renderer)
-│     ├─ ink.py              # toolkit tinta + cat air + perkamen + tokoh
-│     ├─ props.py            # diorama, rak, pipa, dll.
-│     ├─ stories/sejarah-rujukan.py  # adegan cerita "Sejarah daftar pustaka"
-│     ├─ music.py            # folk gitar petik + efek balik halaman
+│  ├─ style-03-parchment-explainer/
+│  │  ├─ README.md           # panduan gaya, field JSON, cara menggambar adegan
+│  │  ├─ style.py            # kamera Ken Burns, transisi tinta->cat, label, subtitle (Renderer)
+│  │  ├─ ink.py              # toolkit tinta + cat air + perkamen + tokoh
+│  │  ├─ props.py            # diorama, rak, pipa, dll.
+│  │  ├─ stories/sejarah-rujukan.py  # adegan cerita "Sejarah daftar pustaka"
+│  │  ├─ music.py            # folk gitar petik + efek balik halaman
+│  │  └─ preview.jpg
+│  └─ style-04-lofi-pixel/
+│     ├─ README.md           # panduan field JSON, font, audio
+│     ├─ style.py            # adegan kamar kos + overlay jendela retro (Renderer)
+│     ├─ pixel.py            # font bitmap 5x7, dithering Bayer, cahaya bertingkat
+│     ├─ music.py            # lo-fi hip-hop + hujan + vinyl + guntur
 │     └─ preview.jpg
 ├─ assets/fonts/             # Anton, Poppins, Cardo, Crimson Text (lisensi OFL)
 └─ output/                   # hasil render (tidak masuk git)

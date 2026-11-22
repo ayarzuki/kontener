@@ -1,0 +1,29 @@
+{
+  "style": "style-04",
+  "title": "Study with me: nyusun Bab 2 (lo-fi)",
+  "duration": 30,
+  "bpm": 80,
+  "scene_cuts": [10, 20],
+  "lightning": [13.0],
+  "watermark": "DOSENKU",
+  "title": {"bar": "STUDY.EXE", "line1": "STUDY WITH ME", "line2": "NYUSUN BAB 2 · LO-FI", "timer": 1500},
+  "screen_rows": ["BAB 2", "RUJUKAN", "DOI OK"],
+  "notifs": [
+    {"t0": 6.0, "t1": 10.8, "y": 150, "lines": ["RUJUKAN BER-DOI: 12", "✓ SEMUA BISA DICEK"]},
+    {"t0": 11.6, "t1": 16.4, "y": 150, "lines": ["KERANGKA BAB 2", "✓ SUDAH NYAMBUNG"]},
+    {"t0": 17.2, "t1": 22.0, "y": 150, "lines": ["BESOK: LATIHAN SIDANG", "✓ SIAP DITANYA"]}
+  ],
+  "captions": [
+    {"t0": 0.8, "t1": 4.6, "lines": ["TEMANI AKU NYUSUN BAB 2", "MALAM INI."]},
+    {"t0": 23.2, "t1": 29.6, "lines": ["RUJUKAN BERES, KERANGKA JELAS.", "DOSENKU, GRATIS UNTUK MULAI."]}
+  ],
+  "cta": {"t0": 22.6, "bar": "DOSENKU.EXE", "big": "DOSENKU", "line1": "TEMAN BIMBINGAN SKRIPSI",
+          "line2": "JUDUL · BAB 1-5 · DOI · SIDANG", "url": "DOSENKU.BIZ.ID", "note": "GRATIS UNTUK MULAI ♥",
+          "tag": "SKRIPSI TERARAH. DOSEN SENANG."},
+  "voices": {"narator": "d36af9647ef647118c64b23b97087838"},
+  "voice_speed": {"narator": 0.95},
+  "voiceover": [
+    {"t0": 0.8, "text": "Temani aku nyusun Bab 2 malam ini.", "tts": "Temani aku nyusun bab dua, malam ini."},
+    {"t0": 23.2, "max": 6.4, "text": "Rujukan beres, kerangka jelas. Dosenku, gratis untuk mulai."}
+  ]
+}

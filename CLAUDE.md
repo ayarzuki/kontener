@@ -39,6 +39,8 @@ python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + 
   ada di `skits/<nama>.py`; teks dialog di JSON. Panduan: README di folder itu.
 - `styles/style-03-parchment-explainer/` — penjelas sejarah ala buku cerita (tinta + cat air di perkamen, diorama
   isometrik, Ken Burns, subtitle sobekan kertas). Adegan digambar di `stories/<cerita>.py`; narasi = `voiceover`.
+- `styles/style-04-lofi-pixel/` — loop "study with me" pixel art 270×480 (×4): kamar kos hujan, lo-fi, timer pomodoro,
+  notifikasi & CTA jendela retro. Font bitmap 5×7 sendiri (kapital saja). Narasi = `voiceover`, subtitle = `captions`.
 - `output/` — hasil render, tidak masuk git.
 
 ## Alur membuat video baru
@@ -47,9 +49,10 @@ python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + 
    wajib punya baris `source`. Angle yang kena untuk penonton Indonesia: kebanggaan lokal, harga dalam rupiah,
    akses/platform di Indonesia, rekor/angka, kebutuhan praktis.
 2. Salin JSON contoh dari style yang dipakai (`gta-vi.json` / `_template.json` untuk style-01,
-   `sidang-skripsi.json` untuk style-02, `sejarah-rujukan.json` untuk style-03), isi kontennya.
+   `sidang-skripsi.json` untuk style-02, `sejarah-rujukan.json` untuk style-03, `lofi-bab2.json` untuk style-04),
+   isi kontennya.
 3. `--preview`, **lihat PNG-nya** (teks tidak boleh tabrakan/terpotong), baru render penuh.
-4. Kalau perlu suara: isi `voiceover` (style-01/03) atau pakai `lines` (+ `tts`, `extra_voiceover`) untuk style-02,
+4. Kalau perlu suara: isi `voiceover` (style-01/03/04) atau pakai `lines` (+ `tts`, `extra_voiceover`) untuk style-02,
    lalu `voice.py`. Pastikan tidak ada peringatan "kalimat … > slot"; kalau ada, padatkan teks atau naikkan
    `voice_speed`.
 5. Commit + push (lihat bagian Git).
