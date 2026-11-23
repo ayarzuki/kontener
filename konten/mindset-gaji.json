@@ -1,0 +1,106 @@
+{
+  "style": "style-06",
+  "story": "mindset-gaji",
+  "series": "MINDSET GAJI",
+  "series_icon": "uang",
+  "footer": "@kalpitalbiz • ilustrasi, bukan nasihat keuangan",
+  "caption_cps": 15.5,
+  "voices": {
+    "narator": "248cf6d6ff744c2ba09d379de5c118ae"
+  },
+  "voice_speed": {
+    "narator": 1.1
+  },
+  "voiceover": [
+    {
+      "t0": 0.25,
+      "text": "Gaji sama Rp5 juta. Lima tahun lagi, tabungannya beda Rp115 juta?",
+      "tts": "Gaji sama lima juta. Lima tahun lagi, tabungannya beda seratus lima belas juta?",
+      "max": 5.3
+    },
+    {
+      "t0": 5.65,
+      "text": "Empat karyawan baru. Kantor sama, gaji sama: Rp5 juta sebulan.",
+      "tts": "Empat karyawan baru. Kantor sama, gaji sama, lima juta sebulan.",
+      "max": 4.26
+    },
+    {
+      "t0": 10.01,
+      "text": "Karyawan pertama: gajian, langsung jajan. Nongkrong, belanja, cicilan HP.",
+      "tts": "Karyawan pertama, gajian, langsung jajan. Nongkrong, belanja, cicilan HP.",
+      "max": 4.86
+    },
+    {
+      "t0": 14.97,
+      "text": "Tiap bulan habis. Lima tahun kemudian: Rp0.",
+      "tts": "Tiap bulan habis. Lima tahun kemudian, nol rupiah.",
+      "max": 3.58
+    },
+    {
+      "t0": 18.65,
+      "text": "Karyawan kedua sisihkan 10% di awal bulan, sebelum belanja apa pun.",
+      "tts": "Karyawan kedua sisihkan sepuluh persen di awal bulan, sebelum belanja apa pun.",
+      "max": 5.18
+    },
+    {
+      "t0": 23.93,
+      "text": "Rp500 ribu sebulan, 60 bulan: Rp30 juta.",
+      "tts": "Lima ratus ribu sebulan, enam puluh bulan, tiga puluh juta.",
+      "max": 4.21
+    },
+    {
+      "t0": 28.24,
+      "text": "Karyawan ketiga sisihkan 20%, plus jualan online tiap akhir pekan: tambah Rp500 ribu.",
+      "tts": "Karyawan ketiga sisihkan dua puluh persen, plus jualan online tiap akhir pekan. Tambah lima ratus ribu.",
+      "max": 6.79
+    },
+    {
+      "t0": 35.13,
+      "text": "Rp1,5 juta sebulan, 60 bulan: Rp90 juta.",
+      "tts": "Satu setengah juta sebulan, enam puluh bulan, sembilan puluh juta.",
+      "max": 4.66
+    },
+    {
+      "t0": 39.89,
+      "text": "Karyawan keempat juga sisihkan 20%, tapi tahun pertama semuanya dipakai kursus dan sertifikasi: Rp12 juta.",
+      "tts": "Karyawan keempat juga sisihkan dua puluh persen. Tapi tahun pertama, semuanya dipakai kursus dan sertifikasi. Dua belas juta.",
+      "max": 8.21
+    },
+    {
+      "t0": 48.2,
+      "text": "Tahun kedua dia pindah kerja. Gajinya naik jadi Rp8 juta.",
+      "tts": "Tahun kedua dia pindah kerja. Gajinya naik jadi delapan juta.",
+      "max": 4.14
+    },
+    {
+      "t0": 52.44,
+      "text": "Dia sisihkan 30%: Rp2,4 juta sebulan, 48 bulan: Rp115 juta.",
+      "tts": "Dia sisihkan tiga puluh persen. Dua koma empat juta sebulan, empat puluh delapan bulan, seratus lima belas juta.",
+      "max": 7.62
+    },
+    {
+      "t0": 60.16,
+      "text": "Dan gajinya sekarang Rp8 juta. Yang lain masih Rp5 juta.",
+      "tts": "Dan gajinya sekarang delapan juta. Yang lain masih lima juta.",
+      "max": 4.24
+    },
+    {
+      "t0": 64.5,
+      "text": "Gaji awalnya sama. Tabungannya beda Rp115 juta.",
+      "tts": "Gaji awalnya sama. Tabungannya beda seratus lima belas juta.",
+      "max": 4.22
+    },
+    {
+      "t0": 68.82,
+      "text": "Bedanya bukan gaji, tapi kebiasaan.",
+      "tts": "Bedanya bukan gaji, tapi kebiasaan.",
+      "max": 2.51
+    },
+    {
+      "t0": 71.43,
+      "text": "Kamu karyawan nomor berapa? Komen 1, 2, 3, atau 4.",
+      "tts": "Kamu karyawan nomor berapa? Komen satu, dua, tiga, atau empat.",
+      "max": 5.3
+    }
+  ]
+}

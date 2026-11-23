@@ -1,0 +1,99 @@
+{
+  "style": "style-05",
+  "story": "malam-bimbingan",
+  "title": "Malam sebelum bimbingan (film pendek 3D)",
+  "hook": {
+    "text": "POV: H-1 bimbingan, Bab 2 masih kosong",
+    "t1": 3.4,
+    "y": 300
+  },
+  "watermark": "Dosenku",
+  "endcard": {
+    "t0": 27.9,
+    "name": "Dosenku",
+    "tagline": "Skripsi terarah. Dosen senang.",
+    "url": "dosenku.biz.id",
+    "note": "Gratis untuk mulai"
+  },
+  "music_moods": [
+    [
+      0,
+      "malam"
+    ],
+    [
+      8.2,
+      "tegang"
+    ],
+    [
+      11.2,
+      "ajaib"
+    ],
+    [
+      15.0,
+      "montase"
+    ],
+    [
+      19.2,
+      "pagi"
+    ],
+    [
+      22.0,
+      "sorak"
+    ],
+    [
+      27.5,
+      "akhir"
+    ]
+  ],
+  "sfx": [
+    {
+      "t": 9.4,
+      "kind": "typing",
+      "dur": 1.8
+    },
+    {
+      "t": 11.9,
+      "kind": "sparkle"
+    },
+    {
+      "t": 15.0,
+      "kind": "typing",
+      "dur": 4.0,
+      "fast": true
+    },
+    {
+      "t": 15.4,
+      "kind": "whoosh"
+    },
+    {
+      "t": 19.3,
+      "kind": "birds"
+    },
+    {
+      "t": 19.8,
+      "kind": "buzz",
+      "dur": 0.9
+    },
+    {
+      "t": 19.9,
+      "kind": "ding"
+    },
+    {
+      "t": 23.9,
+      "kind": "pop"
+    }
+  ],
+  "voices": {
+    "narator": "248cf6d6ff744c2ba09d379de5c118ae"
+  },
+  "voice_speed": {
+    "narator": 1.0
+  },
+  "voiceover": [
+    {
+      "t0": 28.3,
+      "max": 4.0,
+      "text": "Dosenku. Skripsi terarah, dosen senang."
+    }
+  ]
+}

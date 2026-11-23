@@ -1,0 +1,111 @@
+{
+  "style": "style-06",
+  "story": "mindset-es-teh",
+  "series": "MINDSET ES TEH",
+  "footer": "@kalpitalbiz • ilustrasi, bukan nasihat investasi",
+  "caption_cps": 15.5,
+  "voices": {
+    "narator": "248cf6d6ff744c2ba09d379de5c118ae"
+  },
+  "voice_speed": {
+    "narator": 1.1
+  },
+  "voiceover": [
+    {
+      "t0": 0.25,
+      "text": "Modal sama Rp1 juta, kok hasilnya bisa beda 33 kali lipat?",
+      "tts": "Modal sama satu juta, kok hasilnya bisa beda tiga puluh tiga kali lipat?",
+      "max": 4.85
+    },
+    {
+      "t0": 5.2,
+      "text": "Pak Darto punya empat anak. Masing-masing dikasih modal Rp1 juta buat jualan es teh.",
+      "tts": "Pak Darto punya empat anak. Masing-masing dikasih modal satu juta, buat jualan es teh.",
+      "max": 5.74
+    },
+    {
+      "t0": 11.04,
+      "text": "Anak pertama beli satu gerobak, jualan sendiri. Untung Rp50 ribu sehari.",
+      "tts": "Anak pertama beli satu gerobak, jualan sendiri. Untung lima puluh ribu sehari.",
+      "max": 5.19
+    },
+    {
+      "t0": 16.33,
+      "text": "Setahun 300 hari jualan: Rp15 juta. Ini namanya tumbuh organik.",
+      "tts": "Setahun tiga ratus hari jualan, lima belas juta. Ini namanya tumbuh organik.",
+      "max": 5.25
+    },
+    {
+      "t0": 21.68,
+      "text": "Anak kedua nggak beli, tapi sewa. Rp200 ribu sebulan, jadi Rp1 juta dapat lima gerobak.",
+      "tts": "Anak kedua nggak beli, tapi sewa. Dua ratus ribu sebulan, jadi sejuta dapat lima gerobak.",
+      "max": 5.89
+    },
+    {
+      "t0": 27.67,
+      "text": "Untung bersih Rp30 ribu per gerobak. Setahun: Rp45 juta.",
+      "tts": "Untung bersihnya tiga puluh ribu per gerobak. Setahun, empat puluh lima juta.",
+      "max": 5.42
+    },
+    {
+      "t0": 33.19,
+      "text": "Anak ketiga datangi 20 kantor: langganan es teh setahun, bayar di muka.",
+      "tts": "Anak ketiga datangi dua puluh kantor. Langganan es teh setahun, bayar di muka.",
+      "max": 5.18
+    },
+    {
+      "t0": 38.47,
+      "text": "Uang mukanya Rp36 juta, cukup buat sewa 15 gerobak lagi.",
+      "tts": "Uang mukanya tiga puluh enam juta, cukup buat sewa lima belas gerobak lagi.",
+      "max": 4.99
+    },
+    {
+      "t0": 43.56,
+      "text": "Total 20 gerobak: Rp180 juta setahun.",
+      "tts": "Total dua puluh gerobak. Seratus delapan puluh juta setahun.",
+      "max": 4.32
+    },
+    {
+      "t0": 47.98,
+      "text": "Anak keempat pakai cara yang sama, lalu kontrak langganannya dibawa ke bank.",
+      "tts": "Anak keempat pakai cara yang sama, lalu kontrak langganannya dibawa ke bank.",
+      "max": 5.05
+    },
+    {
+      "t0": 53.13,
+      "text": "Dapat pinjaman Rp120 juta: 50 gerobak lagi. Total 70 gerobak.",
+      "tts": "Dapat pinjaman seratus dua puluh juta, lima puluh gerobak lagi. Total tujuh puluh gerobak.",
+      "max": 6.01
+    },
+    {
+      "t0": 59.24,
+      "text": "Setelah bayar cicilan dan bunga, sisa Rp495 juta.",
+      "tts": "Setelah bayar cicilan dan bunga, sisanya empat ratus sembilan puluh lima juta.",
+      "max": 5.53
+    },
+    {
+      "t0": 64.87,
+      "text": "Tapi ingat: utang itu risiko. Kalau sepi, cicilan tetap jalan.",
+      "tts": "Tapi ingat, utang itu risiko. Kalau sepi, cicilan tetap jalan.",
+      "max": 4.3
+    },
+    {
+      "t0": 69.27,
+      "text": "Modalnya sama. Hasilnya beda 33 kali.",
+      "tts": "Modalnya sama. Hasilnya beda tiga puluh tiga kali.",
+      "max": 3.58
+    },
+    {
+      "t0": 72.95,
+      "text": "Bedanya bukan uang, tapi cara berpikir.",
+      "tts": "Bedanya bukan uang, tapi cara berpikir.",
+      "max": 2.76
+    },
+    {
+      "t0": 75.81,
+      "text": "Kamu anak nomor berapa? Komen 1, 2, 3, atau 4.",
+      "tts": "Kamu anak nomor berapa? Komen satu, dua, tiga, atau empat.",
+      "max": 5.05
+    }
+  ]
+}

@@ -41,6 +41,12 @@ python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + 
   isometrik, Ken Burns, subtitle sobekan kertas). Adegan digambar di `stories/<cerita>.py`; narasi = `voiceover`.
 - `styles/style-04-lofi-pixel/` — loop "study with me" pixel art 270×480 (×4): kamar kos hujan, lo-fi, timer pomodoro,
   notifikasi & CTA jendela retro. Font bitmap 5×7 sendiri (kapital saja). Narasi = `voiceover`, subtitle = `captions`.
+- `styles/style-05-animasi-3d/` — film pendek 3D sinematik (moderngl): tokoh Nara berhijab di kamar kos, DOF, bloom.
+  Shot/pose/cahaya per cerita di `stories/<nama>.py`; overlay data (headline, cards, poll, disclaimer, cta, captions)
+  di JSON. Render berat (±15–25 mnt per menit video): render per scene, cek frame per frame.
+- `styles/style-06-kartun-flat/` — gaya gambar explainer "money mindset" vektor flat: rumus diketik, angka berhitung,
+  stempel istilah, pita subtitle karaoke. Gaya visual saja: jumlah tokoh & alur bebas, ditulis di `cerita/<nama>.py`
+  (`build(ctx)` → elemen, potongan, durasi). Render cepat (±30 dtk).
 - `output/` — hasil render, tidak masuk git.
 
 ## Alur membuat video baru
@@ -49,10 +55,11 @@ python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + 
    wajib punya baris `source`. Angle yang kena untuk penonton Indonesia: kebanggaan lokal, harga dalam rupiah,
    akses/platform di Indonesia, rekor/angka, kebutuhan praktis.
 2. Salin JSON contoh dari style yang dipakai (`gta-vi.json` / `_template.json` untuk style-01,
-   `sidang-skripsi.json` untuk style-02, `sejarah-rujukan.json` untuk style-03, `lofi-bab2.json` untuk style-04),
-   isi kontennya.
+   `sidang-skripsi.json` untuk style-02, `sejarah-rujukan.json` untuk style-03, `lofi-bab2.json` untuk style-04,
+   `malam-bimbingan.json` / `anthropic-turun.json` untuk style-05, `mindset-es-teh.json` / `bocor-halus.json` untuk
+   style-06), isi kontennya. Style-05/06 juga butuh file cerita baru.
 3. `--preview`, **lihat PNG-nya** (teks tidak boleh tabrakan/terpotong), baru render penuh.
-4. Kalau perlu suara: isi `voiceover` (style-01/03/04) atau pakai `lines` (+ `tts`, `extra_voiceover`) untuk style-02,
+4. Kalau perlu suara: isi `voiceover` (style-01/03/04/05/06) atau pakai `lines` (+ `tts`, `extra_voiceover`) untuk style-02,
    lalu `voice.py`. Pastikan tidak ada peringatan "kalimat … > slot"; kalau ada, padatkan teks atau naikkan
    `voice_speed`.
 5. Commit + push (lihat bagian Git).
@@ -64,6 +71,9 @@ python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + 
 - Batas teks style-01: headline 2 baris, body ±110 karakter, sumber 1 baris.
 - Style-02: kalau timing dialog digeser > ±0,3 dtk atau cerita baru, sesuaikan/buat `skits/<nama>.py`
   (SHOTS, pose per waktu). Durasi scene kelipatan 0,5 dtk supaya pas ketukan musik.
+- Konten keuangan (akun @kalpitalbiz): selalu tampilkan "bukan nasihat investasi/keuangan"; angka karangan diberi label
+  "ilustrasi" dan hitungannya harus konsisten; angka pasar wajib dicek ke sumber + tanggal.
+- Hook boleh memancing komentar, tapi jangan pakai stereotip SARA.
 
 ## Aturan suara (Fish Audio)
 

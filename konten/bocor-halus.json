@@ -1,0 +1,82 @@
+{
+  "style": "style-06",
+  "story": "bocor-halus",
+  "series": "BOCOR HALUS",
+  "series_icon": "teh",
+  "footer": "@kalpitalbiz • ilustrasi, bukan nasihat keuangan",
+  "caption_cps": 15.5,
+  "voices": {
+    "narator": "d36af9647ef647118c64b23b97087838"
+  },
+  "voice_speed": {
+    "narator": 1.1
+  },
+  "voiceover": [
+    {
+      "t0": 0.25,
+      "text": "Kopi Rp25 ribu sehari. Setahun bisa jadi Rp6,6 juta?",
+      "tts": "Kopi dua puluh lima ribu sehari. Setahun bisa jadi enam koma enam juta?",
+      "max": 4.78
+    },
+    {
+      "t0": 5.13,
+      "text": "Ini Rina. Gajinya Rp6 juta, dan tiap hari kerja dia beli kopi Rp25 ribu.",
+      "tts": "Ini Rina. Gajinya enam juta, dan tiap hari kerja dia beli kopi dua puluh lima ribu.",
+      "max": 5.56
+    },
+    {
+      "t0": 10.79,
+      "text": "Kelihatannya kecil. Tapi 22 hari kerja: Rp550 ribu sebulan.",
+      "tts": "Kelihatannya kecil. Tapi dua puluh dua hari kerja, lima ratus lima puluh ribu sebulan.",
+      "max": 5.74
+    },
+    {
+      "t0": 16.63,
+      "text": "Setahun: Rp6,6 juta. Ini namanya latte factor.",
+      "tts": "Setahun, enam koma enam juta. Ini namanya latte factor.",
+      "max": 3.9
+    },
+    {
+      "t0": 20.63,
+      "text": "Belum ongkir Rp180 ribu, langganan aplikasi Rp150 ribu, dan checkout iseng Rp300 ribu.",
+      "tts": "Belum ongkir seratus delapan puluh ribu, langganan aplikasi seratus lima puluh ribu, dan checkout iseng tiga ratus ribu.",
+      "max": 7.94
+    },
+    {
+      "t0": 28.67,
+      "text": "Totalnya Rp1,18 juta sebulan. Setahun: Rp14,16 juta.",
+      "tts": "Totalnya satu koma satu delapan juta sebulan. Setahun, empat belas koma satu enam juta.",
+      "max": 6.02
+    },
+    {
+      "t0": 34.79,
+      "text": "Itu hampir dua setengah bulan gaji Rina.",
+      "tts": "Itu hampir dua setengah bulan gaji Rina.",
+      "max": 2.88
+    },
+    {
+      "t0": 37.77,
+      "text": "Solusinya bukan berhenti ngopi. Pilih yang paling penting, potong sisanya.",
+      "tts": "Solusinya bukan berhenti ngopi. Pilih yang paling penting, potong sisanya.",
+      "max": 4.97
+    },
+    {
+      "t0": 42.84,
+      "text": "Kopinya tetap. Sisanya dipotong: hemat Rp630 ribu sebulan, Rp7,56 juta setahun.",
+      "tts": "Kopinya tetap. Sisanya dipotong. Hemat enam ratus tiga puluh ribu sebulan, tujuh koma lima enam juta setahun.",
+      "max": 7.38
+    },
+    {
+      "t0": 50.32,
+      "text": "Bukan soal pelit, tapi sadar.",
+      "tts": "Bukan soal pelit, tapi sadar.",
+      "max": 2.13
+    },
+    {
+      "t0": 52.55,
+      "text": "Bocor halus kamu paling besar di mana? Kopi, ongkir, langganan, atau checkout? Komen di bawah.",
+      "tts": "Bocor halus kamu paling besar di mana? Kopi, ongkir, langganan, atau checkout? Komen di bawah.",
+      "max": 7.36
+    }
+  ]
+}

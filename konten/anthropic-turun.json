@@ -1,0 +1,369 @@
+{
+  "style": "style-05",
+  "story": "pasar-merah",
+  "title": "Anthropic turun, semua ikut turun (berita pasar 3D, 20 Nov 2026)",
+  "watermark": "@kalpitalbiz",
+  "corner_note": "Bukan nasihat investasi",
+  "headline": {
+    "text": "ANTHROPIC TURUN,\nSEMUA IKUT TURUN",
+    "t0": 0.15,
+    "t1": 2.75,
+    "y": 380,
+    "size": 76
+  },
+  "cards": [
+    {
+      "t0": 3.2,
+      "t1": 7.3,
+      "y": 400,
+      "label": "ANTHROPIC (ANT)",
+      "value": "−8,5%",
+      "sub": "dari $97,17 ke $88,91",
+      "color": "red",
+      "drop": true
+    },
+    {
+      "t0": 7.9,
+      "t1": 13.1,
+      "x": 290,
+      "y": 400,
+      "label": "TERENDAH",
+      "value": "$83,05",
+      "color": "red"
+    },
+    {
+      "t0": 8.5,
+      "t1": 13.1,
+      "x": 790,
+      "y": 400,
+      "label": "HARGA IPO",
+      "value": "$83",
+      "sub": "cuma 5 sen di bawahnya",
+      "color": "amber",
+      "sub_size": 28
+    },
+    {
+      "t0": 13.6,
+      "t1": 20.1,
+      "x": 290,
+      "y": 400,
+      "label": "AFTER-HOURS",
+      "value": "$87,80",
+      "sub": "−1,25%",
+      "color": "red"
+    },
+    {
+      "t0": 14.2,
+      "t1": 20.1,
+      "x": 790,
+      "y": 400,
+      "label": "DARI HARGA IPO",
+      "value": "+7,1%",
+      "sub": "masih di atas",
+      "color": "green"
+    },
+    {
+      "t0": 20.6,
+      "t1": 25.9,
+      "x": 290,
+      "y": 400,
+      "label": "NEBIUS",
+      "value": "−16,1%",
+      "color": "red"
+    },
+    {
+      "t0": 21.200000000000003,
+      "t1": 25.9,
+      "x": 790,
+      "y": 400,
+      "label": "COREWEAVE",
+      "value": "−12,1%",
+      "color": "red"
+    },
+    {
+      "t0": 26.3,
+      "t1": 33.2,
+      "x": 290,
+      "y": 400,
+      "label": "BITCOIN",
+      "value": "< $60.000",
+      "sub": "pertama sejak Juli",
+      "color": "red",
+      "size": 70
+    },
+    {
+      "t0": 26.900000000000002,
+      "t1": 33.2,
+      "x": 790,
+      "y": 400,
+      "label": "EMAS",
+      "value": "−2,4%",
+      "sub": "≈ $3.538/oz",
+      "color": "red"
+    },
+    {
+      "t0": 33.6,
+      "t1": 40.2,
+      "x": 290,
+      "y": 400,
+      "label": "NASDAQ",
+      "value": "−5,28%",
+      "sub": "cuan 2026 hilang",
+      "color": "red"
+    },
+    {
+      "t0": 34.2,
+      "t1": 40.2,
+      "x": 790,
+      "y": 400,
+      "label": "S&P 500",
+      "value": "−3,70%",
+      "sub": "ke 6.910",
+      "color": "red"
+    },
+    {
+      "t0": 40.6,
+      "t1": 47.0,
+      "y": 400,
+      "label": "IHSG",
+      "value": "−0,92%",
+      "sub": "ke 5.146 • asing jual bersih Rp947 miliar",
+      "color": "red",
+      "drop": true
+    },
+    {
+      "t0": 47.5,
+      "t1": 54.1,
+      "y": 330,
+      "value": "Aksi jual saham AI",
+      "color": "dark",
+      "size": 50,
+      "label": "PENYEBABNYA CAMPURAN"
+    },
+    {
+      "t0": 49.3,
+      "t1": 54.1,
+      "y": 480,
+      "value": "Ambil untung setelah debut rekor",
+      "color": "dark",
+      "size": 50
+    },
+    {
+      "t0": 51.2,
+      "t1": 54.1,
+      "y": 630,
+      "value": "Khawatir suku bunga",
+      "color": "dark",
+      "size": 50
+    }
+  ],
+  "poll": {
+    "t0": 54.3,
+    "t1": 61.5,
+    "y": 330,
+    "question": "Menurut kamu?",
+    "options": [
+      [
+        "A",
+        "Beli saat turun"
+      ],
+      [
+        "B",
+        "Tunggu dulu"
+      ]
+    ],
+    "note": "Tulis A atau B di komentar!"
+  },
+  "disclaimer": {
+    "t0": 57.8,
+    "t1": 61.5,
+    "y": 1440,
+    "text": "Bukan nasihat investasi"
+  },
+  "cta": {
+    "t0": 61.6,
+    "text": "Follow",
+    "handle": "@kalpitalbiz",
+    "sub": "buat update pasar & saham lainnya"
+  },
+  "sources": {
+    "t0": 62.4,
+    "t1": 66.0,
+    "y": 1050,
+    "text": "Sumber: CNN, CNBC, Reuters, Yahoo Finance, BEI • 20 Nov 2026"
+  },
+  "captions": true,
+  "caption_y": 1560,
+  "music_moods": [
+    [
+      0,
+      "krisis"
+    ],
+    [
+      61.6,
+      "akhir"
+    ]
+  ],
+  "sfx": [
+    {
+      "t": 0.5,
+      "kind": "fall"
+    },
+    {
+      "t": 0.95,
+      "kind": "thud"
+    },
+    {
+      "t": 3.2,
+      "kind": "drop"
+    },
+    {
+      "t": 3.0,
+      "kind": "typing",
+      "dur": 4.2
+    },
+    {
+      "t": 7.9,
+      "kind": "drop"
+    },
+    {
+      "t": 13.6,
+      "kind": "typing",
+      "dur": 5.5
+    },
+    {
+      "t": 20.6,
+      "kind": "drop"
+    },
+    {
+      "t": 21.2,
+      "kind": "drop"
+    },
+    {
+      "t": 26.2,
+      "kind": "buzz",
+      "dur": 0.9
+    },
+    {
+      "t": 26.3,
+      "kind": "ding"
+    },
+    {
+      "t": 29.3,
+      "kind": "ding"
+    },
+    {
+      "t": 33.6,
+      "kind": "drop"
+    },
+    {
+      "t": 40.3,
+      "kind": "ding"
+    },
+    {
+      "t": 40.6,
+      "kind": "thud"
+    },
+    {
+      "t": 47.5,
+      "kind": "pop"
+    },
+    {
+      "t": 49.3,
+      "kind": "pop"
+    },
+    {
+      "t": 51.2,
+      "kind": "pop"
+    },
+    {
+      "t": 54.3,
+      "kind": "pop"
+    },
+    {
+      "t": 61.6,
+      "kind": "sparkle"
+    }
+  ],
+  "voices": {
+    "narator": "248cf6d6ff744c2ba09d379de5c118ae"
+  },
+  "voice_speed": {
+    "narator": 1.05
+  },
+  "voiceover": [
+    {
+      "t0": 0.4,
+      "max": 2.25,
+      "text": "Anthropic turun, semua ikut turun.",
+      "tts": "Anthropic turun, semua ikut turun!",
+      "caption": false
+    },
+    {
+      "t0": 2.9,
+      "max": 4.45,
+      "text": "Hari kedua setelah IPO, Anthropic anjlok 8,5%.",
+      "tts": "Hari kedua setelah I P O, Anthropic anjlok delapan setengah persen."
+    },
+    {
+      "t0": 7.6,
+      "max": 5.55,
+      "text": "Sempat $83,05, cuma 5 sen di atas harga IPO.",
+      "tts": "Sempat delapan puluh tiga dolar lima sen. Cuma lima sen di atas harga I P O."
+    },
+    {
+      "t0": 13.4,
+      "max": 6.75,
+      "text": "After-hours turun lagi ke $87,80. Tapi masih 7,1% di atas IPO.",
+      "tts": "Setelah bursa tutup, turun lagi ke delapan puluh tujuh delapan puluh. Masih tujuh persen di atas I P O."
+    },
+    {
+      "t0": 20.4,
+      "max": 5.55,
+      "text": "Bukan cuma Anthropic. Nebius −16,1%, CoreWeave −12,1%.",
+      "tts": "Bukan cuma Anthropic. Nebius minus enam belas persen, CoreWeave minus dua belas persen."
+    },
+    {
+      "t0": 26.2,
+      "max": 7.05,
+      "text": "Bitcoin jebol $60.000, pertama sejak Juli. Emas yang biasanya aman pun turun 2,4%.",
+      "tts": "Bitcoin jebol enam puluh ribu dolar, pertama sejak Juli. Emas yang biasanya aman, ikut turun dua koma empat persen."
+    },
+    {
+      "t0": 33.5,
+      "max": 6.75,
+      "text": "Nasdaq −5,28%, cuan 2026 hilang. S&P 500 −3,70%.",
+      "tts": "Nasdaq minus lima koma tiga persen, cuan tahun ini hilang. S and P lima ratus, minus tiga koma tujuh."
+    },
+    {
+      "t0": 40.5,
+      "max": 6.55,
+      "text": "IHSG −0,92%. Asing jual bersih Rp947 miliar.",
+      "tts": "I H S G turun nol koma sembilan dua persen. Asing jual bersih sembilan ratus empat puluh tujuh miliar."
+    },
+    {
+      "t0": 47.3,
+      "max": 6.85,
+      "text": "Penyebabnya campuran: aksi jual saham AI, ambil untung setelah debut rekor, dan kekhawatiran suku bunga.",
+      "tts": "Penyebabnya campuran. Aksi jual saham A I, ambil untung setelah debut rekor, dan kekhawatiran suku bunga."
+    },
+    {
+      "t0": 54.4,
+      "max": 3.15,
+      "text": "Menurut kamu? A, beli saat turun. B, tunggu dulu.",
+      "tts": "Menurut kamu? A, beli saat turun. B, tunggu dulu."
+    },
+    {
+      "t0": 57.8,
+      "max": 3.65,
+      "text": "Tulis di komentar. Ingat, ini bukan nasihat investasi.",
+      "tts": "Tulis di komentar. Ingat, ini bukan nasihat investasi."
+    },
+    {
+      "t0": 61.7,
+      "max": 4.05,
+      "text": "Follow @kalpitalbiz buat update pasar lainnya!",
+      "tts": "Follow kalpitalbiz, buat update pasar lainnya!"
+    }
+  ]
+}

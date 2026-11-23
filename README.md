@@ -1,6 +1,6 @@
 # kontener
 
-Kumpulan gaya (style) video konten pendek untuk marketing **Dosenku**.
+Kumpulan gaya (style) video konten pendek untuk marketing **Dosenku** (dan akun lain, mis. @kalpitalbiz).
 Tiap style adalah template: isi teksnya ditulis di satu file JSON, lalu satu perintah
 menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan watermark.
 
@@ -12,6 +12,8 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
 | `style-02` | [PS2 Cutscene Skit](styles/style-02-ps2-cutscene/) | Skit komedi 3D low-poly ala cutscene PS2 dengan subtitle, punchline soal produk, end card URL | [`konten/sidang-skripsi.json`](konten/sidang-skripsi.json) |
 | `style-03` | [Parchment Explainer](styles/style-03-parchment-explainer/) | Penjelas sejarah ala buku cerita (tinta + cat air di perkamen), narasi + subtitle, produk sebagai jawaban di akhir | [`konten/sejarah-rujukan.json`](konten/sejarah-rujukan.json) |
 | `style-04` | [Lo-fi Pixel Study](styles/style-04-lofi-pixel/) | Loop "study with me" pixel art: kamar kos hujan, musik lo-fi, timer pomodoro, notifikasi & CTA produk | [`konten/lofi-bab2.json`](konten/lofi-bab2.json) |
+| `style-05` | [3D Animasi Sinematik](styles/style-05-animasi-3d/) | Film pendek 3D rasa film animasi bioskop (tokoh orisinal berhijab, kamar kos), bisa untuk cerita produk atau berita dengan kartu data + polling | [`konten/malam-bimbingan.json`](konten/malam-bimbingan.json), [`konten/anthropic-turun.json`](konten/anthropic-turun.json) |
+| `style-06` | [Kartun Flat](styles/style-06-kartun-flat/) | Gaya gambar explainer viral "money mindset": tokoh flat, rumus diketik, angka berhitung, stempel istilah, pita subtitle. Jumlah tokoh & alur bebas | [`konten/mindset-es-teh.json`](konten/mindset-es-teh.json), [`konten/mindset-gaji.json`](konten/mindset-gaji.json), [`konten/bocor-halus.json`](konten/bocor-halus.json) |
 
 ![Preview style-01](styles/style-01-synthwave-fakta/preview.jpg)
 
@@ -20,6 +22,10 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
 ![Preview style-03](styles/style-03-parchment-explainer/preview.jpg)
 
 ![Preview style-04](styles/style-04-lofi-pixel/preview.jpg)
+
+![Preview style-05](styles/style-05-animasi-3d/preview.jpg)
+
+![Preview style-06](styles/style-06-kartun-flat/preview.jpg)
 
 ## Setup (sekali saja)
 
@@ -41,7 +47,8 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
 1. Salin contoh dari style yang mau dipakai, mis. `copy konten\_template.json konten\topik-baru.json`
    (style-01), `copy konten\sidang-skripsi.json konten\skit-baru.json` (style-02), atau
    `copy konten\sejarah-rujukan.json konten\sejarah-baru.json` (style-03), atau
-   `copy konten\lofi-bab2.json konten\lofi-baru.json` (style-04).
+   `copy konten\lofi-bab2.json konten\lofi-baru.json` (style-04). Style-05 dan style-06 butuh file cerita
+   (`stories/<nama>.py` / `cerita/<nama>.py`) selain JSON, lihat README style-nya.
 2. Edit isinya. Panduan tiap field ada di README style-nya.
 3. Cek tampilan dulu (cepat, hanya gambar):
    ```powershell
@@ -75,8 +82,8 @@ menghasilkan video MP4 vertikal (1080×1920, 30 fps) lengkap dengan musik dan wa
    (mis. `"voices": {"bu": "<ID>"}`), lalu jalankan ulang. `--repick` memilih ulang otomatis.
 
 Di file konten:
-- `voiceover`: narasi bebas `{t0, text, tts?, max?}` (style-01, 03, 04; di style-03 `text` juga jadi subtitle,
-  di style-04 subtitle ditulis terpisah di `captions`).
+- `voiceover`: narasi bebas `{t0, text, tts?, max?}` (style-01, 03, 04, 05, 06; di style-03 dan 06 `text` juga jadi
+  subtitle, di style-04 subtitle ditulis terpisah di `captions`, di style-05 subtitle aktif dengan `"captions": true`).
 - `lines[].tts`: teks khusus TTS untuk dialog skit (ejaan, mis. "ber-de-o-i", atau arah emosi
   `[whispering]`, `[surprised]`), subtitle tetap memakai `text` (style-02).
 - `extra_voiceover`: suara tambahan tanpa subtitle (mis. penutup iklan).
@@ -97,7 +104,12 @@ kontener/
 │  ├─ gta-vi.json            # contoh style-01
 │  ├─ sidang-skripsi.json    # contoh style-02
 │  ├─ sejarah-rujukan.json   # contoh style-03
-│  └─ lofi-bab2.json         # contoh style-04
+│  ├─ lofi-bab2.json         # contoh style-04
+│  ├─ malam-bimbingan.json   # contoh style-05 (Dosenku)
+│  ├─ anthropic-turun.json   # contoh style-05 (berita pasar, @kalpitalbiz)
+│  ├─ mindset-es-teh.json    # contoh style-06 (4 anak)
+│  ├─ mindset-gaji.json      # contoh style-06 (4 karyawan)
+│  └─ bocor-halus.json       # contoh style-06 (1 tokoh)
 ├─ styles/
 │  ├─ style-01-synthwave-fakta/
 │  │  ├─ README.md           # panduan gaya: warna, font, layout, timing, tipe hero
@@ -121,11 +133,27 @@ kontener/
 │  │  ├─ stories/sejarah-rujukan.py  # adegan cerita "Sejarah daftar pustaka"
 │  │  ├─ music.py            # folk gitar petik + efek balik halaman
 │  │  └─ preview.jpg
-│  └─ style-04-lofi-pixel/
-│     ├─ README.md           # panduan field JSON, font, audio
-│     ├─ style.py            # adegan kamar kos + overlay jendela retro (Renderer)
-│     ├─ pixel.py            # font bitmap 5x7, dithering Bayer, cahaya bertingkat
-│     ├─ music.py            # lo-fi hip-hop + hujan + vinyl + guntur
+│  ├─ style-04-lofi-pixel/
+│  │  ├─ README.md           # panduan field JSON, font, audio
+│  │  ├─ style.py            # adegan kamar kos + overlay jendela retro (Renderer)
+│  │  ├─ pixel.py            # font bitmap 5x7, dithering Bayer, cahaya bertingkat
+│  │  ├─ music.py            # lo-fi hip-hop + hujan + vinyl + guntur
+│  │  └─ preview.jpg
+│  ├─ style-05-animasi-3d/
+│  │  ├─ README.md           # panduan field JSON, overlay data, cara menulis cerita
+│  │  ├─ cg.py               # mesin 3D moderngl (SSS, bayangan, ACES, tekstur)
+│  │  ├─ nara.py             # tokoh Nara ber-rig (wajah, alis, mulut, lengan)
+│  │  ├─ room.py             # set kamar kos + tekstur layar/HP/poster
+│  │  ├─ stories/            # malam-bimbingan.py, pasar-merah.py (shot, pose, cahaya)
+│  │  ├─ style.py            # renderer 2 lapis (DOF), bloom, overlay (Renderer)
+│  │  ├─ music.py            # skor orkestra kecil + SFX
+│  │  └─ preview.jpg
+│  └─ style-06-kartun-flat/
+│     ├─ README.md           # kenapa formatnya viral, elemen, cara menulis cerita
+│     ├─ art.py              # sprite vektor flat: tokoh (hijab/rambut/nomor), props, kartu, stempel
+│     ├─ cerita/             # mindset-es-teh.py, mindset-gaji.py, bocor-halus.py
+│     ├─ style.py            # timeline elemen, animasi, subtitle karaoke (Renderer)
+│     ├─ music.py            # ukulele + marimba + SFX otomatis dari timeline
 │     └─ preview.jpg
 ├─ assets/fonts/             # Anton, Poppins, Cardo, Crimson Text (lisensi OFL)
 └─ output/                   # hasil render (tidak masuk git)
