@@ -1,0 +1,100 @@
+{
+  "style": "style-06",
+  "story": "ai-beda-jawaban",
+  "series": "AI TANPA FILTER",
+  "series_icon": "teh",
+  "footer": "@dosenkubiz • sumber: Kompas, detikINET",
+  "caption_cps": 15.5,
+  "voices": {
+    "narator": "25bdf652971e49b1b089cecfd4b1f943"
+  },
+  "voice_speed": {
+    "narator": 1.05
+  },
+  "voiceover": [
+    {
+      "t0": 0.25,
+      "text": "Tiga AI ditanya satu pertanyaan yang sama. Jawabannya tidak sama.",
+      "tts": "Tiga AI ditanya satu pertanyaan yang sama. Jawabannya tidak sama.",
+      "max": 4.56,
+      "dur": 4.21
+    },
+    {
+      "t0": 4.81,
+      "text": "Ini Rafi, semester tujuh, lagi menyusun Bab 2 skripsi.",
+      "tts": "Ini Rafi, semester tujuh, lagi menyusun Bab dua skripsi.",
+      "max": 4.19,
+      "dur": 3.84
+    },
+    {
+      "t0": 9.0,
+      "text": "GTA 6 baru rilis. Dua media tanya, kota mana yang cocok?",
+      "tts": "G T A enam baru rilis. Dua media tanya, kota mana yang cocok?",
+      "max": 4.7,
+      "dur": 4.36
+    },
+    {
+      "t0": 13.82,
+      "text": "Kompas tanya ChatGPT, Gemini, dan Claude. Hasilnya Batam, Bali, Bali.",
+      "tts": "Kompas tanya ChatGPT, Gemini, dan Claude. Hasilnya Batam, Bali, Bali.",
+      "max": 5.57,
+      "dur": 5.22
+    },
+    {
+      "t0": 19.39,
+      "text": "Sehari kemudian media lain tanya lagi. ChatGPT dan Claude pilih Jakarta.",
+      "tts": "Sehari kemudian media lain tanya lagi. ChatGPT dan Claude pilih Jakarta.",
+      "max": 4.63,
+      "dur": 4.28
+    },
+    {
+      "t0": 24.02,
+      "text": "Bukan karena AI-nya rusak. Model memilih kata secara acak.",
+      "tts": "Bukan karena AI-nya rusak. Model memilih kata secara acak.",
+      "max": 4.32,
+      "dur": 3.97
+    },
+    {
+      "t0": 28.34,
+      "text": "Jadi jawaban bisa berubah besok. Untuk rujukan skripsi, itu bahaya.",
+      "tts": "Jadi jawaban bisa berubah besok. Untuk rujukan skripsi, itu bahaya.",
+      "max": 4.84,
+      "dur": 4.49
+    },
+    {
+      "t0": 33.18,
+      "text": "Jangan kutip AI langsung. Minta tautan jurnalnya, lalu buka sendiri.",
+      "tts": "Jangan kutip AI langsung. Minta tautan jurnalnya, lalu buka sendiri.",
+      "max": 4.76,
+      "dur": 4.41
+    },
+    {
+      "t0": 37.94,
+      "text": "Tiga model, satu kesimpulan, semua ada tautannya. Itu baru rujukan.",
+      "tts": "Tiga model, satu kesimpulan, semua ada tautannya. Itu baru rujukan.",
+      "max": 5.13,
+      "dur": 4.78
+    },
+    {
+      "t0": 43.07,
+      "text": "Kamu biasanya tanya satu AI atau tiga? Komen di bawah.",
+      "tts": "Kamu biasanya tanya satu AI atau tiga? Komen di bawah.",
+      "max": 4.19,
+      "dur": 3.84
+    }
+  ],
+  "title": "3 AI Ditanya Hal Sama, Jawabannya Beda — Kok Bisa?",
+  "caption": "Tiga AI populer ditanya satu pertanyaan yang sama soal GTA 6: kota mana yang cocok jadi latar Indonesia? Jawabannya beda, dan sehari kemudian berubah lagi.\n\nKompas (19/11) mencatat ChatGPT pilih Batam, Gemini dan Claude pilih Bali. detikINET (20/11) menanyakan hal yang sama: ChatGPT dan Claude pilih Jakarta, Gemini tetap Bali. Bukan karena salah satunya rusak. Model bahasa memilih kata berikutnya secara acak, jadi jawaban bisa berbeda di sesi lain.\n\nUntuk skripsi, artinya: jangan kutip AI sebagai sumber. Minta tautan jurnalnya, buka sendiri, cek DOI-nya. Tiga model, satu kesimpulan, semua bisa dibuka di dosenku.biz.id.",
+  "hashtags": [
+    "#skripsi",
+    "#mahasiswa",
+    "#AI",
+    "#GTA6",
+    "#dosenku",
+    "#tipsskripsi"
+  ],
+  "captions": {
+    "x": "3 AI ditanya hal sama soal GTA 6: ChatGPT pilih Batam, Gemini-Claude pilih Bali. Sehari kemudian ChatGPT-Claude pindah ke Jakarta. Model bahasa memang acak. Jangan kutip AI buat skripsi, minta tautan jurnalnya. dosenku.biz.id"
+  },
+  "ai_label": true
+}
