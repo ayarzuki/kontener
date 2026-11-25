@@ -1,0 +1,100 @@
+{
+  "style": "style-06",
+  "story": "danantara-gaji",
+  "series": "CEK ANGKA",
+  "series_icon": "uang",
+  "footer": "@kalpitalbiz • data per 25 Nov 2026 • bukan nasihat investasi",
+  "caption_cps": 14.5,
+  "voices": {
+    "narator": "248cf6d6ff744c2ba09d379de5c118ae"
+  },
+  "voice_speed": {
+    "narator": 1.05
+  },
+  "voiceover": [
+    {
+      "t0": 0.25,
+      "text": "Biaya pegawai anak usaha Danantara pernah lebih besar dari labanya?",
+      "tts": "Biaya pegawai anak usaha Danantara, pernah lebih besar dari labanya?",
+      "max": 4.94
+    },
+    {
+      "t0": 5.29,
+      "text": "Danantara baru merilis laporan keuangan 2025, dengan opini WTP dari BPK.",
+      "tts": "Danantara baru merilis laporan keuangan dua ribu dua puluh lima, dengan opini W T P dari B P K.",
+      "max": 6.75
+    },
+    {
+      "t0": 12.14,
+      "text": "Laba konsolidasinya Rp203,4 triliun dalam sembilan bulan. Tapi itu gabungan 1.000 lebih BUMN.",
+      "tts": "Laba konsolidasinya dua ratus tiga koma empat triliun dalam sembilan bulan. Tapi itu gabungan seribu lebih BUMN.",
+      "max": 7.93
+    },
+    {
+      "t0": 20.17,
+      "text": "Yang ramai dibahas justru DIM, lengan investasi Danantara.",
+      "tts": "Yang ramai dibahas justru D I M, lengan investasi Danantara.",
+      "max": 4.33
+    },
+    {
+      "t0": 24.6,
+      "text": "Tahun 2025, biaya pegawai DIM Rp250,7 miliar. Laba bersihnya Rp116,3 miliar.",
+      "tts": "Tahun dua ribu dua puluh lima, biaya pegawai D I M dua ratus lima puluh koma tujuh miliar. Laba bersihnya seratus enam belas koma tiga miliar.",
+      "max": 9.95
+    },
+    {
+      "t0": 34.65,
+      "text": "Biaya pegawainya lebih dari dua kali laba bersih.",
+      "tts": "Biaya pegawainya lebih dari dua kali laba bersih.",
+      "max": 3.73
+    },
+    {
+      "t0": 38.48,
+      "text": "Januari sampai April 2026, biaya pegawai Rp146,5 miliar untuk 118 orang.",
+      "tts": "Januari sampai April dua ribu dua puluh enam, biaya pegawai seratus empat puluh enam koma lima miliar, untuk seratus delapan belas orang.",
+      "max": 9.64
+    },
+    {
+      "t0": 48.22,
+      "text": "Dibagi rata, sekitar Rp310 juta per orang per bulan. Itu total biaya pegawai, bukan gaji yang dibawa pulang.",
+      "tts": "Dibagi rata, sekitar tiga ratus sepuluh juta per orang per bulan. Itu total biaya pegawai, bukan gaji yang dibawa pulang.",
+      "max": 8.55
+    },
+    {
+      "t0": 56.87,
+      "text": "Pembandingnya, UMP Jakarta 2026 Rp5,73 juta. Selisihnya sekitar 54 kali.",
+      "tts": "Pembandingnya, U M P Jakarta dua ribu dua puluh enam, lima koma tujuh tiga juta. Selisihnya sekitar lima puluh empat kali.",
+      "max": 8.76
+    },
+    {
+      "t0": 65.73,
+      "text": "Di periode yang sama, laba DIM Rp705,7 miliar, sebagian dari untung selisih kurs.",
+      "tts": "Di periode yang sama, laba D I M tujuh ratus lima koma tujuh miliar, sebagian dari untung selisih kurs.",
+      "max": 7.31
+    },
+    {
+      "t0": 73.14,
+      "text": "Tapi laba setahun diproyeksi cuma Rp800 miliar, jauh dari target Rp3,4 triliun.",
+      "tts": "Tapi laba setahun diproyeksi cuma delapan ratus miliar, jauh dari target tiga koma empat triliun.",
+      "max": 6.99
+    },
+    {
+      "t0": 80.23,
+      "text": "Kata Danantara, penyebabnya tekanan pasar modal, dan total biaya masih sesuai rencana.",
+      "tts": "Kata Danantara, penyebabnya tekanan pasar modal, dan total biaya masih sesuai rencana.",
+      "max": 6.23
+    },
+    {
+      "t0": 86.56,
+      "text": "Menurut kamu? A, wajar untuk standar investasi global. B, kemahalan.",
+      "tts": "Menurut kamu? A, wajar untuk standar investasi global. B, kemahalan.",
+      "max": 4.89
+    },
+    {
+      "t0": 91.55,
+      "text": "Tulis A atau B di komentar, dan follow @kalpitalbiz.",
+      "tts": "Tulis A atau B di komentar, dan follow kalpitalbiz.",
+      "max": 5.01
+    }
+  ]
+}
