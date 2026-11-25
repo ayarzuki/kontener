@@ -1,0 +1,104 @@
+{
+  "style": "style-06",
+  "story": "sekolah-coding-ai",
+  "series": "MAPEL CODING",
+  "series_icon": "uang",
+  "footer": "@dosenkubiz • data: Antara & Kemendikdasmen, Okt 2026",
+  "caption_cps": 13.4,
+  "voices": {
+    "narator": "25bdf652971e49b1b089cecfd4b1f943"
+  },
+  "voice_speed": {
+    "narator": 1.05
+  },
+  "voiceover": [
+    {
+      "t0": 0.25,
+      "text": "Anak kelas 5 SD sekarang belajar AI. Kamu semester berapa?",
+      "tts": "Anak kelas lima es de sekarang belajar A I. Kamu semester berapa?",
+      "dur": 3.97,
+      "max": 4.27
+    },
+    {
+      "t0": 4.57,
+      "text": "Sejak tahun ajaran 2025, koding dan AI jadi mapel pilihan.",
+      "tts": "Sejak tahun ajaran dua ribu dua puluh lima, koding dan AI jadi mapel pilihan.",
+      "dur": 4.47,
+      "max": 4.77
+    },
+    {
+      "t0": 9.39,
+      "text": "Tapi baru 25 persen sekolah menjalankannya.",
+      "tts": "Tapi baru dua puluh lima persen sekolah menjalankannya.",
+      "dur": 2.69,
+      "max": 2.99
+    },
+    {
+      "t0": 12.43,
+      "text": "Dua jam seminggu. Di SMA kelas 11, sampai lima jam.",
+      "tts": "Dua jam seminggu. Di es em a kelas sebelas, sampai lima jam.",
+      "dur": 4.23,
+      "max": 4.53
+    },
+    {
+      "t0": 17.01,
+      "text": "SD main kartu. SMP pakai blok. SMA tulis kode dan pakai AI.",
+      "tts": "es de main kartu. es em pe pakai blok. es em a tulis kode dan pakai A I.",
+      "dur": 5.22,
+      "max": 5.52
+    },
+    {
+      "t0": 22.58,
+      "text": "8 tahun, 2 jam seminggu: 576 jam.",
+      "tts": "Delapan tahun, dua jam seminggu: lima ratus tujuh puluh enam jam.",
+      "dur": 3.97,
+      "max": 4.27
+    },
+    {
+      "t0": 26.9,
+      "text": "Modal awal yang tidak kamu dapat.",
+      "tts": "Modal awal yang tidak kamu dapat.",
+      "dur": 1.85,
+      "max": 2.15
+    },
+    {
+      "t0": 29.1,
+      "text": "Tapi bukan berarti kalah. Kejar sendiri.",
+      "tts": "Tapi bukan berarti kalah. Kejar sendiri.",
+      "dur": 2.51,
+      "max": 2.81
+    },
+    {
+      "t0": 31.96,
+      "text": "Satu proyek, satu alat, satu hasil. Skripsi bisa jadi yang pertama.",
+      "tts": "Satu proyek, satu alat, satu hasil. Skripsi bisa jadi yang pertama.",
+      "dur": 4.91,
+      "max": 5.21
+    },
+    {
+      "t0": 37.22,
+      "text": "Sekolahmu ada mapel coding? Komen 1, 2, atau 3.",
+      "tts": "Sekolahmu ada mapel coding? Komen satu, dua, atau tiga.",
+      "dur": 4.02,
+      "max": 4.32
+    }
+  ],
+  "title": "Kelas 5 SD Sudah Belajar Coding & AI — Kamu Semester Berapa?",
+  "caption": "Sejak tahun ajaran 2025/2026, koding dan AI jadi mata pelajaran pilihan: mulai kelas 5 SD sampai kelas 12, dua jam per minggu.\n\nTapi Mendikdasmen Abdul Mu'ti (Konaspi, 2 Oktober 2026) menyebut baru sekitar 25 persen sekolah di Indonesia yang menjalankannya. Kalau dihitung dua jam × 36 minggu × 8 tahun, anak yang dapat mapel ini punya 576 jam lebih awal.\n\nBukan berarti kalah. Yang bisa kamu kejar sekarang: satu proyek nyata, satu alat, satu hasil. Skripsi bisa jadi proyek pertama — kerangka Bab 1-5 dan rujukan ber-DOI di dosenku.biz.id.\n\nSumber: Antara, 3 Oktober 2026 (Konaspi Nusa Dua); Kemendikdasmen, pedoman koding & KA (Permendikdasmen 13/2025).",
+  "hashtags": [
+    "#AI",
+    "#coding",
+    "#mahasiswa",
+    "#skripsi",
+    "#dosenku",
+    "#pendidikan"
+  ],
+  "captions": {
+    "x": "Koding & AI jadi mapel pilihan sejak TA 2025/2026, kelas 5 SD sampai 12. Tapi baru 25% sekolah jalan. Selisih 576 jam bisa dikejar: 1 proyek, 1 alat, 1 hasil. dosenku.biz.id"
+  },
+  "ai_label": true,
+  "sources": [
+    "https://m.antaranews.com/berita/5769564/kemendikdasmen-sebut-baru-25-persen-sekolah-ajarkan-coding-dan-ai",
+    "https://kodingka.kemendikdasmen.go.id/pembelajaran"
+  ]
+}
