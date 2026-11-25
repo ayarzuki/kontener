@@ -71,7 +71,10 @@ python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + 
 - Batas teks style-01: headline 2 baris, body ±110 karakter, sumber 1 baris.
 - Style-02: kalau timing dialog digeser > ±0,3 dtk atau cerita baru, sesuaikan/buat `skits/<nama>.py`
   (SHOTS, pose per waktu). Durasi scene kelipatan 0,5 dtk supaya pas ketukan musik.
-- Konten keuangan (akun @kalpitalbiz): selalu tampilkan "bukan nasihat investasi/keuangan"; angka karangan diberi label
+- **Brand default semua video = Dosenku** (watermark/footer "Dosenku", CTA dosenku.biz.id, warna teal). Akun lain
+  (mis. @kalpitalbiz) hanya kalau Zuki minta eksplisit untuk video itu. Topik umum (berita, ekonomi) tetap ditutup
+  dengan jembatan ke skripsi, mis. "cari rujukan jurnal ber-DOI di Dosenku".
+- Konten keuangan: selalu tampilkan "bukan nasihat investasi/keuangan"; angka karangan diberi label
   "ilustrasi" dan hitungannya harus konsisten; angka pasar wajib dicek ke sumber + tanggal.
 - Hook boleh memancing komentar, tapi jangan pakai stereotip SARA.
 

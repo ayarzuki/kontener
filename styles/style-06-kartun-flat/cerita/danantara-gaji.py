@@ -11,6 +11,7 @@ from art import AMBER, GREEN, INK, RED, TEAL, WHITE
 
 G = 1238
 BROWN = (120, 96, 80)
+DOSENKU = (15, 118, 110)  # teal brand #0f766e
 PEG = [((76, 107, 152), 0, "short", None), ((34, 143, 141), 3, "hijab", (90, 110, 150)),
        ((120, 92, 170), 1, "long", (70, 46, 36)), ((200, 80, 70), 2, "short", None)]
 
@@ -142,10 +143,12 @@ def build(ctx):
     add("title", t0, dur, lines=[("MENURUT KAMU?", INK)], x=540, y=290, size=96, z=6)
     pill("A • WAJAR, STANDAR GLOBAL", L(12, 0.25), dur, y=440, bg=GREEN, size=40)
     pill("B • KEMAHALAN", L(12, 0.75), dur, y=540, bg=RED, size=40)
-    pill("KOMEN A / B • FOLLOW @kalpitalbiz", cut(13) + 0.1, dur, y=650, bg=INK, size=34)
+    pill("TULIS A / B DI KOMENTAR", cut(13) + 0.1, dur, y=650, bg=INK, size=34)
+    pill("Rujukan jurnal ber-DOI • dosenku.biz.id", L(13, 0.45), dur, y=760, bg=DOSENKU, size=34)
+    note("Dosenku • Skripsi terarah. Dosen senang.", L(13, 0.7), dur, y=850, size=28)
     for k, (x, lab, col) in enumerate(((330, "A", GREEN), (750, "B", RED))):
         spr(peg(k + 1, "happy" if k == 0 else "worry"), t0 + 0.1 * k, dur, x, G, s=0.85, z=3, bob=3)
-        spr(("numcircle", lab, col), L(12, 0.25 + 0.5 * k), dur, x, 860, s=1.0, z=5)
+        spr(("numcircle", lab, col), L(12, 0.25 + 0.5 * k), dur, x + 120, 1010, s=1.0, z=5)
     note("Sumber: lap. keuangan DIM (SGX), Danantara, Katadata, IDX Channel", cut(13) + 0.3, dur, y=1290, size=22)
 
     cuts = [("hook", 0.0), ("lapkeu", h1)] + [(nm, cut(i)) for i, nm in (

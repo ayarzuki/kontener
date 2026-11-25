@@ -3,7 +3,7 @@
   "story": "danantara-gaji",
   "series": "CEK ANGKA",
   "series_icon": "uang",
-  "footer": "@kalpitalbiz • data per 25 Nov 2026 • bukan nasihat investasi",
+  "footer": "Dosenku • data per 25 Nov 2026 • bukan nasihat investasi",
   "caption_cps": 14.5,
   "voices": {
     "narator": "248cf6d6ff744c2ba09d379de5c118ae"
@@ -92,9 +92,9 @@
     },
     {
       "t0": 91.55,
-      "text": "Tulis A atau B di komentar, dan follow @kalpitalbiz.",
-      "tts": "Tulis A atau B di komentar, dan follow kalpitalbiz.",
-      "max": 5.01
+      "text": "Tulis A atau B di komentar. Lagi nulis skripsi soal BUMN? Cari rujukan jurnal ber-DOI di Dosenku.",
+      "tts": "Tulis A atau B di komentar. Lagi nulis skripsi soal BUMN? Cari rujukan jurnal ber-de-o-i di Dosenku.",
+      "max": 8.4
     }
   ]
 }
