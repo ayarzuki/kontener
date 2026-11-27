@@ -6,7 +6,7 @@
   "footer": "Dosenku • cerita fiksi • dosenku.biz.id",
   "caption_cps": 14.0,
   "voices": {
-    "narator": "d2a7c0f595dc4004858fe1e7b3898069"
+    "narator": "elevenlabs:RbNgJzKAV7jpYJNtCBpj"
   },
   "voice_speed": {
     "narator": 1.0
@@ -16,113 +16,114 @@
       "t0": 0.3,
       "text": "Enam bulan, dosen pembimbingku cuma membalas satu kata.",
       "tts": "Enam bulan, dosen pembimbingku cuma membalas satu kata.",
-      "max": 4.33,
-      "dur": 3.93
+      "max": 4.22,
+      "dur": 3.82
     },
     {
-      "t0": 4.73,
-      "text": "Aku Raka. Dosbingku, Pak Hendra, terkenal paling irit bicara se-fakultas.",
-      "tts": "Aku Raka. Dosbingku, Pak Hendra, terkenal paling irit bicara se-fakultas.",
-      "max": 5.46,
-      "dur": 5.21
+      "t0": 4.62,
+      "text": "Aku Nadia. Dosbingku, Pak Hendra, terkenal paling irit bicara se-fakultas.",
+      "tts": "Aku Nadia. Dosbingku, Pak Hendra, terkenal paling irit bicara se-fakultas.",
+      "max": 5.93,
+      "dur": 5.69
     },
     {
-      "t0": 10.29,
+      "t0": 10.65,
       "text": "Bab 1 aku kirim. Balasannya: \"Revisi.\"",
       "tts": "Bab satu aku kirim. Balasannya... Revisi.",
-      "max": 3.23,
-      "dur": 2.93
+      "max": 4.39,
+      "dur": 4.09
     },
     {
-      "t0": 13.62,
+      "t0": 15.14,
       "text": "Aku ganti judul. \"Revisi.\" Aku tambah dua puluh halaman. \"Revisi.\"",
       "tts": "Aku ganti judul. Revisi. Aku tambah dua puluh halaman. Revisi.",
-      "max": 4.63,
-      "dur": 4.43
+      "max": 5.3,
+      "dur": 5.1
     },
     {
-      "t0": 18.35,
+      "t0": 20.54,
       "text": "Tujuh kali. Tanpa penjelasan apa pun.",
       "tts": "Tujuh kali. Tanpa penjelasan apa pun.",
-      "max": 2.94,
-      "dur": 2.64
+      "max": 3.12,
+      "dur": 2.82
     },
     {
-      "t0": 21.39,
+      "t0": 23.76,
       "text": "Sementara itu, satu per satu temanku sidang dan foto pakai selempang.",
       "tts": "Sementara itu, satu per satu temanku sidang, dan foto pakai selempang.",
-      "max": 5.25,
-      "dur": 5.0
+      "max": 5.45,
+      "dur": 5.2
     },
     {
-      "t0": 26.74,
+      "t0": 29.31,
       "text": "Malam itu, aku hampir ganti judul untuk keempat kalinya.",
       "tts": "Malam itu, aku hampir ganti judul untuk keempat kalinya.",
-      "max": 4.35,
-      "dur": 4.0
+      "max": 4.23,
+      "dur": 3.88
     },
     {
-      "t0": 31.19,
+      "t0": 33.64,
       "text": "Tapi kali ini aku berhenti menebak. Kerangka Bab 2 aku rapikan, rujukanku aku cek satu-satu sampai ber-DOI.",
       "tts": "Tapi kali ini aku berhenti menebak. Kerangka Bab dua aku rapikan, rujukanku aku cek satu-satu sampai ber-de-o-i.",
-      "max": 8.2,
-      "dur": 8.0
+      "max": 9.2,
+      "dur": 9.0
     },
     {
-      "t0": 39.49,
+      "t0": 42.94,
       "text": "Lalu aku kirim tiga pertanyaan spesifik: bagian mana yang lemah, Pak?",
       "tts": "Lalu aku kirim tiga pertanyaan spesifik. Bagian mana yang lemah, Pak?",
-      "max": 5.28,
-      "dur": 4.93
+      "max": 4.65,
+      "dur": 4.29
     },
     {
-      "t0": 44.87,
+      "t0": 47.69,
       "text": "Lima menit kemudian, HP-ku bergetar. Balasannya panjang. Untuk pertama kalinya.",
       "tts": "Lima menit kemudian, HP-ku bergetar. Balasannya panjang. Untuk pertama kalinya.",
-      "max": 5.94,
-      "dur": 5.64
+      "max": 6.76,
+      "dur": 6.46
     },
     {
-      "t0": 50.91,
+      "t0": 54.55,
       "text": "\"Akhirnya kamu bertanya. Dari awal saya menunggu itu.\"",
       "tts": "[softly] Akhirnya kamu bertanya. Dari awal, saya menunggu itu.",
-      "max": 4.19,
-      "dur": 3.79
+      "max": 4.85,
+      "dur": 4.46
     },
     {
-      "t0": 55.2,
+      "t0": 59.5,
       "text": "Ternyata \"revisi\" itu bukan penolakan. Itu undangan buat bimbingan.",
       "tts": "Ternyata, revisi itu bukan penolakan. Itu undangan buat bimbingan.",
-      "max": 5.01,
-      "dur": 4.71
+      "max": 5.66,
+      "dur": 5.36
     },
     {
-      "t0": 60.31,
+      "t0": 65.26,
       "text": "Tiga bulan kemudian, aku sidang. Pak Hendra cuma bilang satu kata lagi.",
       "tts": "Tiga bulan kemudian, aku sidang. Pak Hendra cuma bilang satu kata lagi.",
-      "max": 5.98,
-      "dur": 5.07
+      "max": 5.61,
+      "dur": 4.7
     },
     {
-      "t0": 66.39,
+      "t0": 70.97,
       "text": "\"Lulus.\"",
       "tts": "Lulus.",
-      "max": 1.22,
-      "dur": 0.43
+      "max": 1.45,
+      "dur": 0.66
     },
     {
-      "t0": 67.71,
+      "t0": 72.52,
       "text": "Kamu pernah dapat balasan satu kata dari dosbing? Cerita di komentar.",
       "tts": "Kamu pernah dapat balasan satu kata dari dosbing? Cerita di komentar.",
-      "max": 5.13,
-      "dur": 4.93
+      "max": 4.27,
+      "dur": 4.07
     },
     {
-      "t0": 72.94,
+      "t0": 76.89,
       "text": "Biar bimbinganmu nggak cuma nebak-nebak, siapkan di Dosenku.",
       "tts": "Biar bimbinganmu nggak cuma nebak-nebak, siapkan di Dosenku.",
-      "max": 6.19,
-      "dur": 4.29
+      "max": 5.95,
+      "dur": 4.25
     }
-  ]
+  ],
+  "voice_note": "ElevenLabs voice Citra (RbNgJzKAV7jpYJNtCBpj), model eleven_v4"
 }

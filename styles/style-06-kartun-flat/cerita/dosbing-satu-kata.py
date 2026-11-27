@@ -1,4 +1,4 @@
-"""Cerita pendek (fiksi): "Dosbingku cuma balas satu kata" — Raka & Pak Hendra.
+"""Cerita pendek (fiksi): "Dosbingku cuma balas satu kata" — Nadia & Pak Hendra.
 
 Struktur story: hook misteri → konflik berulang (Revisi ×7) → titik terendah → berubah (berhenti menebak,
 siapkan bimbingan) → twist (dosen menunggu pertanyaan) → callback ending ("Lulus.") → pancingan komentar.
@@ -10,7 +10,7 @@ G = 1238
 BROWN = (120, 96, 80)
 DOSENKU = (15, 118, 110)
 
-RAKA = ((52, 110, 170), 2, "short", None)
+RAKA = ((52, 110, 170), 0, "hijab", (120, 92, 170))  # Nadia
 HENDRA = ((96, 104, 120), 1, "old", None)
 TEMAN = [((243, 162, 41), 0, "hijab", (226, 120, 140)), ((34, 143, 141), 3, "short", None),
          ((200, 80, 70), 1, "long", (70, 46, 36))]
@@ -59,20 +59,20 @@ def build(ctx):
 
     # ------------------------------------------------ 1. kenalan
     t0, t1 = h1, cut(2)
-    person(RAKA, t0, t1, 260, tag="RAKA", tagcol=RAKA[0])
+    person(RAKA, t0, t1, 260, tag="NADIA", tagcol=RAKA[0])
     person(HENDRA, L(1, 0.3), t1, 800, tag="PAK HENDRA", tagcol=HENDRA[0])
     pill("DOSBING PALING IRIT BICARA", L(1, 0.62), t1, bg=INK)
     bubble("...", L(1, 0.75), t1, 860, 760, w=200, size=50, tail="left")
 
     # ------------------------------------------------ 2. Bab 1 → Revisi
     t0, t1 = cut(2), cut(3)
-    person(RAKA, t0, t1, 220, face="smile", faces=[(L(2, 0.75), "o")], enter=False, tag="RAKA", tagcol=RAKA[0])
+    person(RAKA, t0, t1, 220, face="smile", faces=[(L(2, 0.75), "o")], enter=False, tag="NADIA", tagcol=RAKA[0])
     spr(("laptop", "BAB 1"), t0 + 0.1, t1, 660, G - 10, s=1.15, z=3)
     stamp("REVISI", L(2, 0.72), t1, y=520, size=72)
 
     # ------------------------------------------------ 3. revisi lagi & lagi
     t0, t1 = cut(3), cut(5)
-    person(RAKA, t0, t1, 220, face="worry", enter=False, tag="RAKA", tagcol=RAKA[0])
+    person(RAKA, t0, t1, 220, face="worry", enter=False, tag="NADIA", tagcol=RAKA[0])
     spr(("contract", 20), t0, t1, 700, G - 10, s=1.0, z=3, sfx=False,
         art_at=[(L(3, 0.65), ("contract", 40))])
     pill("JUDUL BARU", L(3, 0.05), L(3, 0.45), y=300, bg=BROWN)
@@ -90,7 +90,7 @@ def build(ctx):
     for k, (p, x) in enumerate(zip(TEMAN, (520, 720, 920))):
         person(p, L(5, 0.15) + 0.35 * k, t1, x, face="happy", arm="up", s=0.85, z=2)
         spr(("cert", "LULUS"), L(5, 0.2) + 0.35 * k, t1, x, 760, s=0.55, z=4)
-    person(RAKA, t0, t1, 190, face="worry", enter=False, tag="RAKA", tagcol=RAKA[0], z=3)
+    person(RAKA, t0, t1, 190, face="worry", enter=False, tag="NADIA", tagcol=RAKA[0], z=3)
     pill("SATU PER SATU SIDANG", L(5, 0.05), t1, bg=GREEN)
 
     # ------------------------------------------------ 6. titik terendah
@@ -103,7 +103,7 @@ def build(ctx):
 
     # ------------------------------------------------ 7. berhenti menebak (Dosenku)
     t0, t1 = cut(7), cut(8)
-    person(RAKA, t0, t1, 220, face="talk", faces=[(L(7, 0.6), "smile")], tag="RAKA", tagcol=RAKA[0])
+    person(RAKA, t0, t1, 220, face="talk", faces=[(L(7, 0.6), "smile")], tag="NADIA", tagcol=RAKA[0])
     stamp("BERHENTI MENEBAK", L(7, 0.06), t1, y=300, col=DOSENKU, size=50)
     spr(("laptop", "DOSENKU"), L(7, 0.25), t1, 680, G - 10, s=1.15, z=3)
     pill("KERANGKA BAB 2 RAPI", L(7, 0.35), t1, y=470, bg=DOSENKU, size=34)
@@ -111,7 +111,7 @@ def build(ctx):
 
     # ------------------------------------------------ 8. tiga pertanyaan
     t0, t1 = cut(8), cut(9)
-    person(RAKA, t0, t1, 200, face="talk", enter=False, tag="RAKA", tagcol=RAKA[0])
+    person(RAKA, t0, t1, 200, face="talk", enter=False, tag="NADIA", tagcol=RAKA[0])
     pill("3 PERTANYAAN SPESIFIK", t0 + 0.05, t1, bg=INK)
     for k, q in enumerate(("1. Rumusan masalah?", "2. Kerangka teori?", "3. Metode?")):
         bubble(q, L(8, 0.2) + 0.45 * k, t1, 660, 560 + k * 150, w=420, size=34, tail="left")
@@ -141,13 +141,13 @@ def build(ctx):
     t0, t1 = cut(12), cut(13)
     add("calendar", t0 + 0.1, t1, n0=1, n1=3, count=1.0, head="BULAN", x=540, y=520, s=0.85, z=4)
     pill("HARI SIDANG", L(12, 0.35), t1, y=300, bg=INK)
-    person(RAKA, t0, t1, 280, face="worry", tag="RAKA", tagcol=RAKA[0])
+    person(RAKA, t0, t1, 280, face="worry", tag="NADIA", tagcol=RAKA[0])
     person(HENDRA, t0, t1, 800, face="smile", tag="PAK HENDRA", tagcol=HENDRA[0])
 
     # ------------------------------------------------ 13. callback: "Lulus."
     t0, t1 = cut(13), cut(14)
     person(HENDRA, t0, t1, 800, face="happy", enter=False, tag="PAK HENDRA", tagcol=HENDRA[0])
-    person(RAKA, t0, t1, 280, face="o", faces=[(L(13, 0.9), "happy")], enter=False, tag="RAKA", tagcol=RAKA[0])
+    person(RAKA, t0, t1, 280, face="o", faces=[(L(13, 0.9), "happy")], enter=False, tag="NADIA", tagcol=RAKA[0])
     bubble("Lulus.", t0 + 0.05, t1, 620, 760, w=330, size=68, tail="right")
     stamp("LULUS", L(13, 0.9), t1, y=360, col=GREEN, size=86)
     spr(("cert", "LULUS"), L(13, 1.2), t1, 280, 720, s=0.7, z=4)

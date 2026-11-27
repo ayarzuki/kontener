@@ -19,15 +19,21 @@ Pemilik: Zuki. Bahasa kerja: Indonesia santai. Mesin: Windows (PowerShell), repo
 pip install -r requirements.txt                      # sekali (numpy, pillow, scipy, moderngl)
 python build.py konten\<nama>.json --preview         # 1 PNG per scene -> output\<nama>-preview\  (cek dulu!)
 python build.py konten\<nama>.json                   # render penuh -> output\<nama>.mp4
-python voice.py konten\<nama>.json                   # voice-over Fish Audio -> output\<nama>-voice.mp4
+python voice.py konten\<nama>.json                   # voice-over (Fish/ElevenLabs) -> output\<nama>-voice.mp4
+python voice.py konten\<nama>.json --audio-dir <folder>  # pakai rekaman/unduhan sendiri (01.mp3, 02.mp3, ...)
 python voice.py konten\<nama>.json --video output\X.mp4   # beri suara ke video tertentu
 python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + ID
 ```
 
 - Butuh `ffmpeg` di PATH (sudah terpasang via winget).
 - Set `PYTHONUTF8=1` kalau output di-redirect ke file (konsol Windows cp1252 bikin UnicodeEncodeError).
-- API key Fish Audio ada di env `FISH_AUDIO_API_KEY` (atau `~/.config/kontener/fish.env`).
+- API key Fish Audio ada di env `FISH_AUDIO_API_KEY` (atau `~/.config/kontener/fish.env`); ElevenLabs di env
+  `ELEVENLABS_API_KEY` (atau `~/.config/kontener/elevenlabs.env`).
   **Jangan pernah** mencetak, menyalin, atau meng-commit key.
+- Style-06: `voice.py` otomatis mengukur durasi asli tiap kalimat, menggeser `t0`/`dur` di JSON, render ulang
+  video, lalu menempel suara (satu perintah, tanpa atur timing manual). `--no-sync` untuk mematikan.
+- Sandbox Claude tidak bisa mengunduh dari server ElevenLabs. Jalur paling simpel: Claude siapkan video + JSON
+  (push + sinkron ke laptop), Zuki jalankan satu perintah `python voice.py konten\<nama>.json` di PowerShell.
 
 ## Struktur
 
@@ -82,6 +88,8 @@ python voice.py konten\<nama>.json --list-voices     # daftar suara Indonesia + 
 
 - **Jangan pakai suara tiruan tokoh nyata** (politisi, artis, kreator: Prabowo, Jokowi, Windah, dll.) atau
   karakter berhak cipta. `voice.py` punya filter `AVOID`, tapi tetap cek judul suara yang dipilih.
+- ElevenLabs: tulis `"voices": {"narator": "elevenlabs:<voice_id>"}`, model di `"tts_model"` (default `eleven_v4`,
+  turun otomatis ke v3/multilingual_v2). Suara Citra (wanita muda, Indonesia) = `elevenlabs:RbNgJzKAV7jpYJNtCBpj`.
 - Suara yang sudah dipakai & aman: narator `248cf6d6ff744c2ba09d379de5c118ae` (Toren),
   wanita `d36af9647ef647118c64b23b97087838` (Narator Indonesia),
   pria paruh baya `6d7909c639cc40499a4e9f8ed219136d` (Agus Iki),
