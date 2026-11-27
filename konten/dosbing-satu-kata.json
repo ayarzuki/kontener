@@ -1,0 +1,128 @@
+{
+  "style": "style-06",
+  "story": "dosbing-satu-kata",
+  "series": "CERITA SKRIPSI",
+  "series_icon": null,
+  "footer": "Dosenku • cerita fiksi • dosenku.biz.id",
+  "caption_cps": 14.0,
+  "voices": {
+    "narator": "d2a7c0f595dc4004858fe1e7b3898069"
+  },
+  "voice_speed": {
+    "narator": 1.0
+  },
+  "voiceover": [
+    {
+      "t0": 0.3,
+      "text": "Enam bulan, dosen pembimbingku cuma membalas satu kata.",
+      "tts": "Enam bulan, dosen pembimbingku cuma membalas satu kata.",
+      "max": 4.33,
+      "dur": 3.93
+    },
+    {
+      "t0": 4.73,
+      "text": "Aku Raka. Dosbingku, Pak Hendra, terkenal paling irit bicara se-fakultas.",
+      "tts": "Aku Raka. Dosbingku, Pak Hendra, terkenal paling irit bicara se-fakultas.",
+      "max": 5.46,
+      "dur": 5.21
+    },
+    {
+      "t0": 10.29,
+      "text": "Bab 1 aku kirim. Balasannya: \"Revisi.\"",
+      "tts": "Bab satu aku kirim. Balasannya... Revisi.",
+      "max": 3.23,
+      "dur": 2.93
+    },
+    {
+      "t0": 13.62,
+      "text": "Aku ganti judul. \"Revisi.\" Aku tambah dua puluh halaman. \"Revisi.\"",
+      "tts": "Aku ganti judul. Revisi. Aku tambah dua puluh halaman. Revisi.",
+      "max": 4.63,
+      "dur": 4.43
+    },
+    {
+      "t0": 18.35,
+      "text": "Tujuh kali. Tanpa penjelasan apa pun.",
+      "tts": "Tujuh kali. Tanpa penjelasan apa pun.",
+      "max": 2.94,
+      "dur": 2.64
+    },
+    {
+      "t0": 21.39,
+      "text": "Sementara itu, satu per satu temanku sidang dan foto pakai selempang.",
+      "tts": "Sementara itu, satu per satu temanku sidang, dan foto pakai selempang.",
+      "max": 5.25,
+      "dur": 5.0
+    },
+    {
+      "t0": 26.74,
+      "text": "Malam itu, aku hampir ganti judul untuk keempat kalinya.",
+      "tts": "Malam itu, aku hampir ganti judul untuk keempat kalinya.",
+      "max": 4.35,
+      "dur": 4.0
+    },
+    {
+      "t0": 31.19,
+      "text": "Tapi kali ini aku berhenti menebak. Kerangka Bab 2 aku rapikan, rujukanku aku cek satu-satu sampai ber-DOI.",
+      "tts": "Tapi kali ini aku berhenti menebak. Kerangka Bab dua aku rapikan, rujukanku aku cek satu-satu sampai ber-de-o-i.",
+      "max": 8.2,
+      "dur": 8.0
+    },
+    {
+      "t0": 39.49,
+      "text": "Lalu aku kirim tiga pertanyaan spesifik: bagian mana yang lemah, Pak?",
+      "tts": "Lalu aku kirim tiga pertanyaan spesifik. Bagian mana yang lemah, Pak?",
+      "max": 5.28,
+      "dur": 4.93
+    },
+    {
+      "t0": 44.87,
+      "text": "Lima menit kemudian, HP-ku bergetar. Balasannya panjang. Untuk pertama kalinya.",
+      "tts": "Lima menit kemudian, HP-ku bergetar. Balasannya panjang. Untuk pertama kalinya.",
+      "max": 5.94,
+      "dur": 5.64
+    },
+    {
+      "t0": 50.91,
+      "text": "\"Akhirnya kamu bertanya. Dari awal saya menunggu itu.\"",
+      "tts": "[softly] Akhirnya kamu bertanya. Dari awal, saya menunggu itu.",
+      "max": 4.19,
+      "dur": 3.79
+    },
+    {
+      "t0": 55.2,
+      "text": "Ternyata \"revisi\" itu bukan penolakan. Itu undangan buat bimbingan.",
+      "tts": "Ternyata, revisi itu bukan penolakan. Itu undangan buat bimbingan.",
+      "max": 5.01,
+      "dur": 4.71
+    },
+    {
+      "t0": 60.31,
+      "text": "Tiga bulan kemudian, aku sidang. Pak Hendra cuma bilang satu kata lagi.",
+      "tts": "Tiga bulan kemudian, aku sidang. Pak Hendra cuma bilang satu kata lagi.",
+      "max": 5.98,
+      "dur": 5.07
+    },
+    {
+      "t0": 66.39,
+      "text": "\"Lulus.\"",
+      "tts": "Lulus.",
+      "max": 1.22,
+      "dur": 0.43
+    },
+    {
+      "t0": 67.71,
+      "text": "Kamu pernah dapat balasan satu kata dari dosbing? Cerita di komentar.",
+      "tts": "Kamu pernah dapat balasan satu kata dari dosbing? Cerita di komentar.",
+      "max": 5.13,
+      "dur": 4.93
+    },
+    {
+      "t0": 72.94,
+      "text": "Biar bimbinganmu nggak cuma nebak-nebak, siapkan di Dosenku.",
+      "tts": "Biar bimbinganmu nggak cuma nebak-nebak, siapkan di Dosenku.",
+      "max": 6.19,
+      "dur": 4.29
+    }
+  ]
+}
